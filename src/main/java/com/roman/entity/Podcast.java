@@ -12,8 +12,9 @@ public class Podcast {
     private String uuid;
     @NonNull
     private String title;
-    @NonNull
-    private LocalDateTime published;
+
+    private long published;
+
     private String description;
     private String audioUrl;
     private boolean starred;
