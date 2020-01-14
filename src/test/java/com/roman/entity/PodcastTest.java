@@ -56,8 +56,9 @@ class PodcastTest {
     @Test
     void addCategory() {
 
+        String categoryName = "category";
         Podcast podcast1 = new Podcast("podcast1", "podcast1");
-        Category category = new Category("category");
+        Category category = new Category(categoryName);
 
         EntityTransaction transaction = entityManager.getTransaction();
         transaction.begin();
@@ -70,6 +71,8 @@ class PodcastTest {
 
         Podcast podcast11 = entityManager.find(Podcast.class, podcast1.getId());
         assertSame(podcast1, podcast11);
+
+        assertEquals(categoryName, podcast11.getCategories().iterator().next().getName());
 
     }
 
