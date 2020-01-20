@@ -1,4 +1,4 @@
-package com.roman.entity;
+package com.roman.podcastplayer.entity;
 
 import java.io.IOException;
 import java.nio.file.Files;

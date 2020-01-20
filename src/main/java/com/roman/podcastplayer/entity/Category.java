@@ -1,4 +1,4 @@
-package com.roman.entity;
+package com.roman.podcastplayer.entity;
 
 import lombok.Data;
 import lombok.NonNull;

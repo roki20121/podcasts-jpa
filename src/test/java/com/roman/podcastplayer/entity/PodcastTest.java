@@ -1,4 +1,4 @@
-package com.roman.entity;
+package com.roman.podcastplayer.entity;
 
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
