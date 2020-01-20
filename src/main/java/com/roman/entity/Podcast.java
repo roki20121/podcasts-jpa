@@ -1,9 +1,6 @@
 package com.roman.entity;
 
-import lombok.Data;
-import lombok.NoArgsConstructor;
-import lombok.NonNull;
-import lombok.RequiredArgsConstructor;
+import lombok.*;
 
 import javax.persistence.*;
 import java.time.Instant;
@@ -13,6 +10,7 @@ import java.util.Set;
 @Entity
 @Data
 @NoArgsConstructor
+@EqualsAndHashCode(of = {"uuid"})
 @RequiredArgsConstructor
 public class Podcast {
 
@@ -46,4 +44,5 @@ public class Podcast {
     public void addCategory(Category category) {
         categories.add(category);
     }
+
 }
