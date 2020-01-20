@@ -4,10 +4,7 @@ import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
-import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.EntityTransaction;
-import javax.persistence.Persistence;
+import javax.persistence.*;
 import java.io.IOException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -100,6 +97,25 @@ class PodcastTest {
 
         assertNotSame(podcast, podcast1);
         assertEquals(published, podcast1.getPublished());
+    }
+
+    @Test
+    void should_throw_when_uuid_exist() {
+        Podcast podcast1 = new Podcast("uuid", "Podcast 1");
+        Podcast podcast2 = new Podcast("uuid", "Podcast 2");
+
+        assertEquals(podcast1, podcast2);
+
+        EntityTransaction transaction = entityManager.getTransaction();
+        transaction.begin();
+
+        assertThrows(PersistenceException.class, () -> {
+            entityManager.persist(podcast1);
+            entityManager.persist(podcast2);
+        });
+
+
+        transaction.commit();
     }
 
 }
