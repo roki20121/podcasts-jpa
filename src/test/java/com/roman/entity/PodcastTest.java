@@ -26,6 +26,8 @@ class PodcastTest {
 
     @AfterAll
     static void dropDB() throws SQLException, IOException {
+        entityManager.close();
+        entityManagerFactory.close();
         Path scriptPath = Paths.get("scripts/drop_all_tables.sql");
         TestUtils.executeScript(scriptPath);
     }
