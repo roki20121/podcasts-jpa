@@ -1,14 +1,19 @@
 package com.roman.entity;
 
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import lombok.NonNull;
+import lombok.RequiredArgsConstructor;
 
 import javax.persistence.*;
+import java.time.Instant;
 import java.util.HashSet;
 import java.util.Set;
 
 @Entity
 @Data
+@NoArgsConstructor
+@RequiredArgsConstructor
 public class Podcast {
 
     @Id
@@ -22,7 +27,7 @@ public class Podcast {
     @NonNull
     private String title;
 
-    private long published;
+    private Instant published;
 
     private String description;
 

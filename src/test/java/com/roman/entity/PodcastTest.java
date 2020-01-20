@@ -12,6 +12,7 @@ import java.io.IOException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.sql.SQLException;
+import java.time.Instant;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -79,6 +80,26 @@ class PodcastTest {
     void should_throw_exception_when_title_null() {
         assertThrows(NullPointerException.class,
                 () -> new Podcast("uuid", null));
+    }
+
+    @Test
+    void should_persist_timestamp_when_notnull() {
+        Podcast podcast = new Podcast("uuid", "Podcast");
+        Instant published = Instant.now();
+        podcast.setPublished(published);
+
+        EntityTransaction transaction = entityManager.getTransaction();
+        transaction.begin();
+
+        entityManager.persist(podcast);
+        entityManager.detach(podcast);
+
+        transaction.commit();
+
+        Podcast podcast1 = entityManager.find(Podcast.class, podcast.getId());
+
+        assertNotSame(podcast, podcast1);
+        assertEquals(published, podcast1.getPublished());
     }
 
 }
