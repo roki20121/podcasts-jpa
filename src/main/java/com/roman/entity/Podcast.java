@@ -33,6 +33,11 @@ public class Podcast {
 
     private boolean starred;
 
+    @ToString.Exclude
+    @ManyToOne
+    @JoinColumn(name = "channel_id")
+    private Channel channel;
+
     @ManyToMany
     @JoinTable(
             name = "podcast_category",
