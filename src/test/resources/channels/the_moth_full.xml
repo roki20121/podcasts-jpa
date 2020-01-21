@@ -1,0 +1,1155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2enclosuresfull.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.themoth.org/~d/styles/itemcontent.css"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+    <channel>
+        <title>The Moth</title>
+        <link>http://themoth.org/</link>
+        <pubDate>Fri, 17 Jan 2020 15:00:00 -0000</pubDate>
+        <lastBuildDate>Fri, 17 Jan 2020 15:00:19 -0000</lastBuildDate>
+        <ttl>60</ttl>
+        <language>en-us</language>
+        <copyright>2006-2019</copyright>
+        <webMaster>prxhelp@prx.org (PRX)</webMaster>
+        <description>
+            <![CDATA[<p>Since its launch in 1997, The Moth has presented thousands of true stories, told live and without notes, to standing-room-only crowds worldwide. Moth storytellers stand alone, under a spotlight, with only a microphone and a roomful of strangers. The storyteller and the audience embark on a high-wire act of shared experience which is both terrifying and exhilarating. Since 2008, The Moth podcast has featured many of our favorite stories told live on Moth stages around the country. For information on all of our programs and live events, visit themoth.org.</p>]]>
+        </description>
+        <managingEditor>webmaster@themoth.org (The Moth)</managingEditor>
+        <generator>PRX Feeder v1.0.0</generator>
+        <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+        <image>
+            <url>https://f.prxu.org/themoth/images/b544ee01-b653-40ee-8470-4d03407762a6/logo_podcast.jpg</url>
+            <title>The Moth</title>
+            <link>http://themoth.org/</link>
+            <width>1400</width>
+            <height>1400</height>
+        </image>
+
+        <itunes:author>The Moth</itunes:author>
+        <itunes:type>episodic</itunes:type>
+        <itunes:category text="Arts">
+            <itunes:category text="Performing Arts"/>
+        </itunes:category>
+        <itunes:image href="https://f.prxu.org/themoth/images/38a3c7bf-b7cb-4571-8652-d4a60004c16c/logo_podcast.jpg"/>
+        <itunes:explicit>clean</itunes:explicit>
+        <itunes:owner>
+            <itunes:email>webmaster@themoth.org</itunes:email>
+            <itunes:name>The Moth</itunes:name>
+        </itunes:owner>
+        <itunes:subtitle>The Moth features people telling true, engaging, funny, touching and eye-opening stories from
+            their lives.
+        </itunes:subtitle>
+        <itunes:summary>
+            <![CDATA[Since its launch in 1997, The Moth has presented thousands of true stories, told live and without notes, to standing-room-only crowds worldwide. Moth storytellers stand alone, under a spotlight, with only a microphone and a roomful of strangers. The storyteller and the audience embark on a high-wire act of shared experience which is both terrifying and exhilarating. Since 2008, The Moth podcast has featured many of our favorite stories told live on Moth stages around the country. For information on all of our programs and live events, visit themoth.org.]]>
+        </itunes:summary>
+        <media:copyright>2006-2019</media:copyright>
+        <media:thumbnail url="https://f.prxu.org/themoth/images/b544ee01-b653-40ee-8470-4d03407762a6/logo_podcast.jpg"/>
+        <media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Arts</media:category>
+        <sy:updatePeriod>hourly</sy:updatePeriod>
+        <sy:updateFrequency>1</sy:updateFrequency>
+        <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml"
+                     href="http://feeds.themoth.org/themothpodcast"/>
+        <feedburner:info uri="themothpodcast"/>
+        <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/"/>
+        <item>
+            <guid isPermaLink="false">prx_24_9b728a50-99d0-466f-8c07-6621bea4a4fa</guid>
+            <title>When I Grow Up: Tim Lopez &amp; Kelley Craig</title>
+            <pubDate>Fri, 17 Jan 2020 15:00:00 -0000</pubDate>
+            <link>http://feeds.themoth.org/~r/themothpodcast/~3/Oe9M6FmJgN8/306252</link>
+            <description>
+                <![CDATA[<p>This week, we’re asking the same question your high school guidance counselor asked you at age 15: “What do you want to do with the rest of your life?” </p>
+<p>Hosted by Dan “DJ” Kennedy</p>
+<p>Storytellers: Tim Lopez, Kelley Craig</p>]]>
+            </description>
+            <enclosure
+                    url="https://www.podtrac.com/pts/redirect.mp3/dovetail.prxu.org/themoth/9b728a50-99d0-466f-8c07-6621bea4a4fa/Podcast_633_v2.mp3"
+                    type="audio/mpeg" length="21860048"/>
+            <itunes:subtitle>What do you want to do with your life?</itunes:subtitle>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:duration>17:40</itunes:duration>
+            <itunes:author>The Moth</itunes:author>
+            <itunes:summary>
+                <![CDATA[This week, we’re asking the same question your high school guidance counselor asked you at age 15: “What do you want to do with the rest of your life?”
+Hosted by Dan “DJ” Kennedy
+Storytellers: Tim Lopez, Kelley Craig]]>
+            </itunes:summary>
+            <itunes:image
+                    href="https://f.prxu.org/themoth/9b728a50-99d0-466f-8c07-6621bea4a4fa/images/27bd9235-d668-4ca4-938a-b413e14c20af/new_logo_podcast.jpg"/>
+            <media:content fileSize="21860048" type="audio/mpeg"
+                           url="https://www.podtrac.com/pts/redirect.mp3/dovetail.prxu.org/themoth/9b728a50-99d0-466f-8c07-6621bea4a4fa/Podcast_633_v2.mp3"/>
+            <content:encoded><![CDATA[
+        <p>This week, we’re asking the same question your high school guidance counselor asked you at age 15: “What do you want to do with the rest of your life?” </p>
+<p>Hosted by Dan “DJ” Kennedy</p>
+<p>Storytellers: Tim Lopez, Kelley Craig</p>
+      <img src="http://feeds.feedburner.com/~r/themothpodcast/~4/Oe9M6FmJgN8" height="1" width="1" alt=""/>]]></content:encoded>
+            <feedburner:origLink>https://beta.prx.org/stories/306252</feedburner:origLink>
+        </item>
+        <item>
+            <guid isPermaLink="false">prx_24_a67c9505-49be-43c8-aa0e-860e3277ee98</guid>
+            <title>The Moth Radio Hour: War, Barbie Dream House, Coco, and a Nekkid Man</title>
+            <pubDate>Tue, 14 Jan 2020 21:00:00 -0000</pubDate>
+            <link>http://feeds.themoth.org/~r/themothpodcast/~3/8ChOWZE8VH4/305945</link>
+            <description>
+                <![CDATA[<p>This week, a bullet wound helps heal; a little girl learns what love is all about after surviving a terrible car accident; a young man and and his father succumb to guilt at the animal shelter; and a burnt-out corporate executive tries to shake her A-type personality at art school.This hour is hosted by The Moth's Executive Director, Jenifer Hixson.<em>The Moth Radio Hour</em>is produced by The Moth and Jay Allison of Atlantic Public Media.</p>
+<p>Hosted by: Jenifer Hixson</p>
+<p>Storytellers: Phil Caputo, Carlos Kotkin, Ophira Eisenberg, Tricia Rose Burt </p>]]>
+            </description>
+            <enclosure
+                    url="https://www.podtrac.com/pts/redirect.mp3/dovetail.prxu.org/themoth/a67c9505-49be-43c8-aa0e-860e3277ee98/MRH_1104_2020_segment1.mp3"
+                    type="audio/mpeg" length="73205450"/>
+            <itunes:subtitle>This week, a bullet wound, an accident, a puppy and an art student.</itunes:subtitle>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:duration>53:20</itunes:duration>
+            <itunes:author>The Moth</itunes:author>
+            <itunes:summary>
+                <![CDATA[This week, a bullet wound helps heal; a little girl learns what love is all about after surviving a terrible car accident; a young man and and his father succumb to guilt at the animal shelter; and a burnt-out corporate executive tries to shake her A-type personality at art school.This hour is hosted by The Moth's Executive Director, Jenifer Hixson.The Moth Radio Houris produced by The Moth and Jay Allison of Atlantic Public Media.
+Hosted by: Jenifer Hixson
+Storytellers: Phil Caputo, Carlos Kotkin, Ophira Eisenberg, Tricia Rose Burt ]]>
+            </itunes:summary>
+            <itunes:image
+                    href="https://f.prxu.org/themoth/a67c9505-49be-43c8-aa0e-860e3277ee98/images/a328984a-6419-4094-a8b4-9aaf25c36449/new_logo_podcast.jpg"/>
+            <media:content fileSize="73205450" type="audio/mpeg"
+                           url="https://www.podtrac.com/pts/redirect.mp3/dovetail.prxu.org/themoth/a67c9505-49be-43c8-aa0e-860e3277ee98/MRH_1104_2020_segment1.mp3"/>
+            <content:encoded><![CDATA[
+        <p>This week, a bullet wound helps heal; a little girl learns what love is all about after surviving a terrible car accident; a young man and and his father succumb to guilt at the animal shelter; and a burnt-out corporate executive tries to shake her A-type personality at art school.This hour is hosted by The Moth's Executive Director, Jenifer Hixson.<em>The Moth Radio Hour</em>is produced by The Moth and Jay Allison of Atlantic Public Media.</p>
+<p>Hosted by: Jenifer Hixson</p>
+<p>Storytellers: Phil Caputo, Carlos Kotkin, Ophira Eisenberg, Tricia Rose Burt </p>
+      <img src="http://feeds.feedburner.com/~r/themothpodcast/~4/8ChOWZE8VH4" height="1" width="1" alt=""/>]]></content:encoded>
+            <feedburner:origLink>https://beta.prx.org/stories/305945</feedburner:origLink>
+        </item>
+        <item>
+            <guid isPermaLink="false">prx_24_d7d54a46-bfbc-48ef-9bfd-45c9ef976be1</guid>
+            <title>The Moth Radio Hour: Stuck!</title>
+            <pubDate>Tue, 07 Jan 2020 21:00:00 -0000</pubDate>
+            <link>http://feeds.themoth.org/~r/themothpodcast/~3/u0rDgz0o_u8/305053</link>
+            <description>
+                <![CDATA[<p>In this hour, stories of being stuck. Stranded in Las Vegas, a desperate search for a pet sitter, a wreck on the Colorado River, and stage fright on the church pulpit. This hour is hosted by The Moth's Executive Producer, Sarah Austin Jenness. The Moth Radio Hour is produced by The Moth and Jay Allison of Atlantic Public Media.</p>
+<p>Hosted by: Sarah Austin Jenness</p>
+<p>Storytellers: Alistair Bane, Jon Levin, Noriko Rosted, Taylor Tower</p>]]>
+            </description>
+            <enclosure
+                    url="https://www.podtrac.com/pts/redirect.mp3/dovetail.prxu.org/themoth/d7d54a46-bfbc-48ef-9bfd-45c9ef976be1/MRH_2003_segment1.mp3"
+                    type="audio/mpeg" length="73023284"/>
+            <itunes:subtitle>In this hour, stories of being stuck.</itunes:subtitle>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:duration>53:12</itunes:duration>
+            <category>
+                <![CDATA[animals]]>
+            </category>
+            <category>
+                <![CDATA[family]]>
+            </category>
+            <category>
+                <![CDATA[live]]>
+            </category>
+            <category>
+                <![CDATA[love]]>
+            </category>
+            <category>
+                <![CDATA[performance]]>
+            </category>
+            <itunes:author>The Moth</itunes:author>
+            <itunes:summary>
+                <![CDATA[In this hour, stories of being stuck. Stranded in Las Vegas, a desperate search for a pet sitter, a wreck on the Colorado River, and stage fright on the church pulpit. This hour is hosted by The Moth's Executive Producer, Sarah Austin Jenness. The Moth Radio Hour is produced by The Moth and Jay Allison of Atlantic Public Media.
+Hosted by: Sarah Austin Jenness
+Storytellers: Alistair Bane, Jon Levin, Noriko Rosted, Taylor Tower]]>
+            </itunes:summary>
+            <itunes:image
+                    href="https://f.prxu.org/themoth/d7d54a46-bfbc-48ef-9bfd-45c9ef976be1/images/9218f8f3-229a-4fef-87cd-d5311ab27b2c/new_logo_podcast.jpg"/>
+            <media:content fileSize="73023284" type="audio/mpeg"
+                           url="https://www.podtrac.com/pts/redirect.mp3/dovetail.prxu.org/themoth/d7d54a46-bfbc-48ef-9bfd-45c9ef976be1/MRH_2003_segment1.mp3"/>
+            <content:encoded><![CDATA[
+        <p>In this hour, stories of being stuck. Stranded in Las Vegas, a desperate search for a pet sitter, a wreck on the Colorado River, and stage fright on the church pulpit. This hour is hosted by The Moth's Executive Producer, Sarah Austin Jenness. The Moth Radio Hour is produced by The Moth and Jay Allison of Atlantic Public Media.</p>
+<p>Hosted by: Sarah Austin Jenness</p>
+<p>Storytellers: Alistair Bane, Jon Levin, Noriko Rosted, Taylor Tower</p>
+      <img src="http://feeds.feedburner.com/~r/themothpodcast/~4/u0rDgz0o_u8" height="1" width="1" alt=""/>]]></content:encoded>
+            <feedburner:origLink>https://beta.prx.org/stories/305053</feedburner:origLink>
+        </item>
+        <item>
+            <guid isPermaLink="false">prx_24_755019bf-9810-490b-b2d9-257fc87a53d1</guid>
+            <title>The Moth Radio Hour: Live From Santa Barbara</title>
+            <pubDate>Tue, 31 Dec 2019 21:00:00 -0000</pubDate>
+            <link>http://feeds.themoth.org/~r/themothpodcast/~3/HrdF7cYJ6Yw/302998</link>
+            <description>
+                <![CDATA[<p>A special live edition of The Moth brought to you from the Lobero Theater in Santa Barbara, California. An encounter in the Alaskan wilderness, an intergenerational connection through music, and a rockstar who feels out of touch. This episode is hosted by Dame Wilburn, with additional hosting by Jay Allison. The Moth Radio Hour is produced by The Moth and Jay Allison of Atlantic Public Media in Woods Hole, Massachusetts. </p>
+<p>Hosted by: Jay Allison</p>
+<p>Storytellers: Monte Montepare, Christina Igaraividez, Patty Schemel  </p>]]>
+            </description>
+            <enclosure
+                    url="https://www.podtrac.com/pts/redirect.mp3/dovetail.prxu.org/themoth/755019bf-9810-490b-b2d9-257fc87a53d1/MRH_1901_segment1.mp3"
+                    type="audio/mpeg" length="73192930"/>
+            <itunes:subtitle>A special live edition of The Moth brought to you from the Lobero Theater in Santa Barbara,
+                California.
+            </itunes:subtitle>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:duration>53:19</itunes:duration>
+            <itunes:author>The Moth</itunes:author>
+            <itunes:summary>
+                <![CDATA[A special live edition of The Moth brought to you from the Lobero Theater in Santa Barbara, California. An encounter in the Alaskan wilderness, an intergenerational connection through music, and a rockstar who feels out of touch. This episode is hosted by Dame Wilburn, with additional hosting by Jay Allison. The Moth Radio Hour is produced by The Moth and Jay Allison of Atlantic Public Media in Woods Hole, Massachusetts.
+Hosted by: Jay Allison
+Storytellers: Monte Montepare, Christina Igaraividez, Patty Schemel  ]]>
+            </itunes:summary>
+            <itunes:image
+                    href="https://f.prxu.org/themoth/755019bf-9810-490b-b2d9-257fc87a53d1/images/1619461d-9e1a-4bb1-844a-6cd8f92d8182/new_logo_podcast.jpg"/>
+            <media:content fileSize="73192930" type="audio/mpeg"
+                           url="https://www.podtrac.com/pts/redirect.mp3/dovetail.prxu.org/themoth/755019bf-9810-490b-b2d9-257fc87a53d1/MRH_1901_segment1.mp3"/>
+            <content:encoded><![CDATA[
+        <p>A special live edition of The Moth brought to you from the Lobero Theater in Santa Barbara, California. An encounter in the Alaskan wilderness, an intergenerational connection through music, and a rockstar who feels out of touch. This episode is hosted by Dame Wilburn, with additional hosting by Jay Allison. The Moth Radio Hour is produced by The Moth and Jay Allison of Atlantic Public Media in Woods Hole, Massachusetts. </p>
+<p>Hosted by: Jay Allison</p>
+<p>Storytellers: Monte Montepare, Christina Igaraividez, Patty Schemel  </p>
+      <img src="http://feeds.feedburner.com/~r/themothpodcast/~4/HrdF7cYJ6Yw" height="1" width="1" alt=""/>]]></content:encoded>
+            <feedburner:origLink>https://beta.prx.org/stories/302998</feedburner:origLink>
+        </item>
+        <item>
+            <guid isPermaLink="false">prx_24_e4acf1e6-0a00-4791-bcd2-5fee71d9ac36</guid>
+            <title>Loose Ends and New Beginnings: Eliana Saenz &amp; Otis Gray</title>
+            <pubDate>Fri, 27 Dec 2019 15:00:00 -0000</pubDate>
+            <link>http://feeds.themoth.org/~r/themothpodcast/~3/TPdhkSvcc30/298873</link>
+            <description>
+                <![CDATA[<p>This week, we're tying up loose ends and starting new beginnings as we head into 2020. From all of us at The Moth, Happy New Year!</p>
+<p>Hosted by: Dan Kennedy</p>
+<p>Storytellers: Eliana Saenz, Otis Gray</p>]]>
+            </description>
+            <enclosure
+                    url="https://www.podtrac.com/pts/redirect.mp3/dovetail.prxu.org/themoth/e4acf1e6-0a00-4791-bcd2-5fee71d9ac36/Podcast_630_v4.mp3"
+                    type="audio/mpeg" length="27205462"/>
+            <itunes:subtitle>This week, we're tying up loose ends and starting new beginnings as we head into 2020.
+            </itunes:subtitle>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:duration>21:23</itunes:duration>
+            <itunes:author>The Moth</itunes:author>
+            <itunes:summary>
+                <![CDATA[This week, we're tying up loose ends and starting new beginnings as we head into 2020. From all of us at The Moth, Happy New Year!
+Hosted by: Dan Kennedy
+Storytellers: Eliana Saenz, Otis Gray]]>
+            </itunes:summary>
+            <itunes:image
+                    href="https://f.prxu.org/themoth/e4acf1e6-0a00-4791-bcd2-5fee71d9ac36/images/be138e7d-9c32-4534-bca1-78dca82bdb5c/new_logo_podcast.jpg"/>
+            <media:content fileSize="27205462" type="audio/mpeg"
+                           url="https://www.podtrac.com/pts/redirect.mp3/dovetail.prxu.org/themoth/e4acf1e6-0a00-4791-bcd2-5fee71d9ac36/Podcast_630_v4.mp3"/>
+            <content:encoded><![CDATA[
+        <p>This week, we're tying up loose ends and starting new beginnings as we head into 2020. From all of us at The Moth, Happy New Year!</p>
+<p>Hosted by: Dan Kennedy</p>
+<p>Storytellers: Eliana Saenz, Otis Gray</p>
+      <img src="http://feeds.feedburner.com/~r/themothpodcast/~4/TPdhkSvcc30" height="1" width="1" alt=""/>]]></content:encoded>
+            <feedburner:origLink>https://beta.prx.org/stories/298873</feedburner:origLink>
+        </item>
+        <item>
+            <guid isPermaLink="false">http://themoth.prx.org/?p=2941</guid>
+            <title>The Moth Radio Hour: Holiday Special 2016: Unexpected Gifts of December</title>
+            <pubDate>Tue, 24 Dec 2019 21:00:00 -0000</pubDate>
+            <link>http://feeds.themoth.org/~r/themothpodcast/~3/tewtwgypd8o/</link>
+            <description>
+                <![CDATA[<p>A special Holiday Hour from The Moth. The unexpected gifts of December: holiday customs, brand new traditions, flying cows, fruit, luminaries and a magical forest. Hosted by The Moth’s Executive Producer, Sarah Austin Jenness. The Moth Radio Hour is produced by The Moth and Jay Allison of Atlantic Public Media.</p>
+<p>Storytellers: Adam Ruben, Pierre Epstein, Ed McCarthy, Katie Fales, Catherine McCarthy, David Frieberg, and Denise Scheuermann.</p>]]>
+            </description>
+            <enclosure
+                    url="https://www.podtrac.com/pts/redirect.mp3/dovetail.prxu.org/themoth/dc66d539-60d0-4d77-b881-b2a0cf5ad5cc/MRH_1623_2019_segment1.mp3"
+                    type="audio/mpeg" length="73227986"/>
+            <itunes:subtitle>A special Holiday Hour from The Moth.</itunes:subtitle>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:duration>53:21</itunes:duration>
+            <category>
+                <![CDATA[Podcasts]]>
+            </category>
+            <category>
+                <![CDATA[WNYC]]>
+            </category>
+            <category>
+                <![CDATA[five]]>
+            </category>
+            <category>
+                <![CDATA[newer]]>
+            </category>
+            <itunes:author>The Moth</itunes:author>
+            <itunes:summary>
+                <![CDATA[A special Holiday Hour from The Moth. The unexpected gifts of December: holiday customs, brand new traditions, flying cows, fruit, luminaries and a magical forest. Hosted by The Moth’s Executive Producer, Sarah Austin Jenness. The Moth Radio Hour is produced by The Moth and Jay Allison of Atlantic Public Media. Storytellers: Adam Ruben, Pierre Epstein, Ed McCarthy, Katie Fales, Catherine […]]]>
+            </itunes:summary>
+            <itunes:image
+                    href="https://f.prxu.org/themoth/dc66d539-60d0-4d77-b881-b2a0cf5ad5cc/images/1ee43b9b-ebb5-418d-8f9e-8f4c84dbdbb0/new_logo_podcast.jpg"/>
+            <media:content fileSize="73227986" type="audio/mpeg"
+                           url="https://www.podtrac.com/pts/redirect.mp3/dovetail.prxu.org/themoth/dc66d539-60d0-4d77-b881-b2a0cf5ad5cc/MRH_1623_2019_segment1.mp3"/>
+            <content:encoded><![CDATA[
+        <p>A special Holiday Hour from The Moth. The unexpected gifts of December: holiday customs, brand new traditions, flying cows, fruit, luminaries and a magical forest. Hosted by The Moth’s Executive Producer, Sarah Austin Jenness. The Moth Radio Hour is produced by The Moth and Jay Allison of Atlantic Public Media.</p>
+<p>Storytellers: Adam Ruben, Pierre Epstein, Ed McCarthy, Katie Fales, Catherine McCarthy, David Frieberg, and Denise Scheuermann.</p>
+      <img src="http://feeds.feedburner.com/~r/themothpodcast/~4/tewtwgypd8o" height="1" width="1" alt=""/>]]></content:encoded>
+            <feedburner:origLink>
+                http://themoth.prx.org/the-moth-radio-hour-holiday-special-2016-unexpected-gifts-of-december/
+            </feedburner:origLink>
+        </item>
+        <item>
+            <guid isPermaLink="false">prx_24_cd4b79d8-6265-4627-b7d5-f3f9b62e50de</guid>
+            <title>Togetherness: Luke Rodehorst &amp; Katiana Ciceron</title>
+            <pubDate>Fri, 20 Dec 2019 15:00:00 -0000</pubDate>
+            <link>http://feeds.themoth.org/~r/themothpodcast/~3/v68BHWVwQd8/298871</link>
+            <description>
+                <![CDATA[<p>This week, stories of learning to co-exist.</p>
+<p>Hosted by: Dan Kennedy</p>
+<p>Storytellers: Luke Rodehorst &amp; Katiana Ciceron</p>]]>
+            </description>
+            <enclosure
+                    url="https://www.podtrac.com/pts/redirect.mp3/dovetail.prxu.org/themoth/cd4b79d8-6265-4627-b7d5-f3f9b62e50de/Podcast_629_v3.mp3"
+                    type="audio/mpeg" length="24127420"/>
+            <itunes:subtitle>This week, stories of learning to co-exist.</itunes:subtitle>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:duration>19:15</itunes:duration>
+            <itunes:author>The Moth</itunes:author>
+            <itunes:summary>
+                <![CDATA[This week, stories of learning to co-exist.
+Hosted by: Dan Kennedy
+Storytellers: Luke Rodehorst &amp; Katiana Ciceron]]>
+            </itunes:summary>
+            <itunes:image
+                    href="https://f.prxu.org/themoth/cd4b79d8-6265-4627-b7d5-f3f9b62e50de/images/b35a85a2-61cc-46aa-9d08-ad8b493a9343/new_logo_podcast.jpg"/>
+            <media:content fileSize="24127420" type="audio/mpeg"
+                           url="https://www.podtrac.com/pts/redirect.mp3/dovetail.prxu.org/themoth/cd4b79d8-6265-4627-b7d5-f3f9b62e50de/Podcast_629_v3.mp3"/>
+            <content:encoded><![CDATA[
+        <p>This week, stories of learning to co-exist.</p>
+<p>Hosted by: Dan Kennedy</p>
+<p>Storytellers: Luke Rodehorst &amp; Katiana Ciceron</p>
+      <img src="http://feeds.feedburner.com/~r/themothpodcast/~4/v68BHWVwQd8" height="1" width="1" alt=""/>]]></content:encoded>
+            <feedburner:origLink>https://beta.prx.org/stories/298871</feedburner:origLink>
+        </item>
+        <item>
+            <guid isPermaLink="false">http://themoth.prx.org/?p=2829</guid>
+            <title>The Moth Radio Hour: Phone Call, Flamenco, Surprise Party</title>
+            <pubDate>Tue, 17 Dec 2019 21:00:00 -0000</pubDate>
+            <link>http://feeds.themoth.org/~r/themothpodcast/~3/1dgRs_NsRXM/</link>
+            <description>
+                <![CDATA[<p>A call to a hotline, a rabbi caught speeding, a rookie reporter, a swim test, an unwanted surprise party and an obsession with Flamenco.</p>
+<p>Storytellers: Auburn Sandstrom, Tere Negrete, Daniel Judson, Ray Christian, Todd Shafer, Mary Furlong Coomer.</p>]]>
+            </description>
+            <enclosure
+                    url="https://www.podtrac.com/pts/redirect.mp3/dovetail.prxu.org/themoth/afc2e90d-b54c-47a3-8a5e-55daa0e2b0a4/MRH_1614_2019_segment1.mp3"
+                    type="audio/mpeg" length="73164760"/>
+            <itunes:subtitle>A call to a hotline, a rabbi caught speeding, a rookie reporter, a swim test, an unwanted
+                surprise party and an obsession with Flamenco. Storytellers: Auburn Sandstrom, Tere Negrete, Daniel
+                Judson, Ray Christian, Todd Shafer, Mary Furlong Coomer.
+            </itunes:subtitle>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:duration>53:18</itunes:duration>
+            <category>
+                <![CDATA[Podcasts]]>
+            </category>
+            <category>
+                <![CDATA[WNYC]]>
+            </category>
+            <category>
+                <![CDATA[five]]>
+            </category>
+            <category>
+                <![CDATA[newer]]>
+            </category>
+            <itunes:author>The Moth</itunes:author>
+            <itunes:summary>
+                <![CDATA[A call to a hotline, a rabbi caught speeding, a rookie reporter, a swim test, an unwanted surprise party and an obsession with Flamenco. Storytellers: Auburn Sandstrom, Tere Negrete, Daniel Judson, Ray Christian, Todd Shafer, Mary Furlong Coomer.]]>
+            </itunes:summary>
+            <itunes:image
+                    href="https://f.prxu.org/themoth/afc2e90d-b54c-47a3-8a5e-55daa0e2b0a4/images/c9964bbb-8b0c-4222-bf73-c8c5874095fc/new_logo_podcast.jpg"/>
+            <media:content fileSize="73164760" type="audio/mpeg"
+                           url="https://www.podtrac.com/pts/redirect.mp3/dovetail.prxu.org/themoth/afc2e90d-b54c-47a3-8a5e-55daa0e2b0a4/MRH_1614_2019_segment1.mp3"/>
+            <content:encoded><![CDATA[
+        <p>A call to a hotline, a rabbi caught speeding, a rookie reporter, a swim test, an unwanted surprise party and an obsession with Flamenco.</p>
+<p>Storytellers: Auburn Sandstrom, Tere Negrete, Daniel Judson, Ray Christian, Todd Shafer, Mary Furlong Coomer.</p>
+      <img src="http://feeds.feedburner.com/~r/themothpodcast/~4/1dgRs_NsRXM" height="1" width="1" alt=""/>]]></content:encoded>
+            <feedburner:origLink>http://themoth.prx.org/the-moth-radio-hour-phone-call-flamenco-surprise-party/
+            </feedburner:origLink>
+        </item>
+        <item>
+            <guid isPermaLink="false">prx_24_8b80cb8c-a482-47d5-941d-5b6175b8cfe3</guid>
+            <title>The Moth Radio Hour: Parental Guidance</title>
+            <pubDate>Tue, 10 Dec 2019 21:00:00 -0000</pubDate>
+            <link>http://feeds.themoth.org/~r/themothpodcast/~3/-AyhokRvYuU/298651</link>
+            <description>
+                <![CDATA[<p>In this hour, stories of learning from one's parents. Difficult life lessons, words of wisdom (not always heeded), and being lead by example. Listen to your father; mother knows best; respect your elders. This hour is hosted by Moth Radio Hour Producer, Jay Allison. <em>The Moth Radio Hour</em> is produced by The Moth and Jay Allison of Atlantic Public Media.</p>
+<p>Hosted by: Jay Allison</p>
+<p>Storytellers: Bridgett Davis, Ellie Lee, Jason Schommer, Louise Newton-Keogh </p>]]>
+            </description>
+            <enclosure
+                    url="https://www.podtrac.com/pts/redirect.mp3/dovetail.prxu.org/themoth/8b80cb8c-a482-47d5-941d-5b6175b8cfe3/MRH_1921_Podcast_Version_segment1.mp3"
+                    type="audio/mpeg" length="73269928"/>
+            <itunes:subtitle>In this hour, stories of learning from one's parents.</itunes:subtitle>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:duration>53:22</itunes:duration>
+            <itunes:author>The Moth</itunes:author>
+            <itunes:summary>
+                <![CDATA[In this hour, stories of learning from one's parents. Difficult life lessons, words of wisdom (not always heeded), and being lead by example. Listen to your father; mother knows best; respect your elders. This hour is hosted by Moth Radio Hour Producer, Jay Allison. The Moth Radio Hour is produced by The Moth and Jay Allison of Atlantic Public Media.
+Hosted by: Jay Allison
+Storytellers: Bridgett Davis, Ellie Lee, Jason Schommer, Louise Newton-Keogh ]]>
+            </itunes:summary>
+            <itunes:image
+                    href="https://f.prxu.org/themoth/8b80cb8c-a482-47d5-941d-5b6175b8cfe3/images/71330926-1f21-4cec-9f52-3b057ce4a1da/2019_03_18.jpg"/>
+            <media:content fileSize="73269928" type="audio/mpeg"
+                           url="https://www.podtrac.com/pts/redirect.mp3/dovetail.prxu.org/themoth/8b80cb8c-a482-47d5-941d-5b6175b8cfe3/MRH_1921_Podcast_Version_segment1.mp3"/>
+            <content:encoded><![CDATA[
+        <p>In this hour, stories of learning from one's parents. Difficult life lessons, words of wisdom (not always heeded), and being lead by example. Listen to your father; mother knows best; respect your elders. This hour is hosted by Moth Radio Hour Producer, Jay Allison. <em>The Moth Radio Hour</em> is produced by The Moth and Jay Allison of Atlantic Public Media.</p>
+<p>Hosted by: Jay Allison</p>
+<p>Storytellers: Bridgett Davis, Ellie Lee, Jason Schommer, Louise Newton-Keogh </p>
+      <img src="http://feeds.feedburner.com/~r/themothpodcast/~4/-AyhokRvYuU" height="1" width="1" alt=""/>]]></content:encoded>
+            <feedburner:origLink>https://beta.prx.org/stories/298651</feedburner:origLink>
+        </item>
+        <item>
+            <guid isPermaLink="false">prx_24_3855382b-14c3-41ec-9c4f-309470438772</guid>
+            <title>The Moth Radio Hour: Forever and Ever</title>
+            <pubDate>Tue, 03 Dec 2019 21:00:00 -0000</pubDate>
+            <link>http://feeds.themoth.org/~r/themothpodcast/~3/DVqsQZ1TYeM/298650</link>
+            <description>
+                <![CDATA[<p>In this hour, stories of things past shaping the here and now; the smell and taste of home, whirlwind romance, and finding comfort and kinship in the most dire of circumstances. This hour is hosted by Moth Senior Director Meg Bowles. <em>The Moth Radio Hour</em> is produced by The Moth and Jay Allison of Atlantic Public Media.</p>
+<p>Hosted by: Meg Bowles</p>
+<p>Storytellers: Talaya Moore, Nikesh Shukla, Andrew Solmssen, Caitlin FitzGerald</p>]]>
+            </description>
+            <enclosure
+                    url="https://www.podtrac.com/pts/redirect.mp3/dovetail.prxu.org/themoth/3855382b-14c3-41ec-9c4f-309470438772/MRH_1925_segment_1.mp3"
+                    type="audio/mpeg" length="73201068"/>
+            <itunes:subtitle>In this hour, stories of things past shaping the here and now.</itunes:subtitle>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:duration>53:20</itunes:duration>
+            <category>
+                <![CDATA[family]]>
+            </category>
+            <category>
+                <![CDATA[food]]>
+            </category>
+            <category>
+                <![CDATA[live]]>
+            </category>
+            <category>
+                <![CDATA[love]]>
+            </category>
+            <category>
+                <![CDATA[perfomance]]>
+            </category>
+            <category>
+                <![CDATA[performing]]>
+            </category>
+            <category>
+                <![CDATA[stories]]>
+            </category>
+            <category>
+                <![CDATA[storytelling]]>
+            </category>
+            <itunes:author>The Moth</itunes:author>
+            <itunes:summary>
+                <![CDATA[In this hour, stories of things past shaping the here and now; the smell and taste of home, whirlwind romance, and finding comfort and kinship in the most dire of circumstances. This hour is hosted by Moth Senior Director Meg Bowles. The Moth Radio Hour is produced by The Moth and Jay Allison of Atlantic Public Media.
+Hosted by: Meg Bowles
+Storytellers: Talaya Moore, Nikesh Shukla, Andrew Solmssen, Caitlin FitzGerald]]>
+            </itunes:summary>
+            <itunes:image
+                    href="https://f.prxu.org/themoth/3855382b-14c3-41ec-9c4f-309470438772/images/7c7c5106-6891-4f39-8ba6-fa0f613dd95f/new_logo_podcast.jpg"/>
+            <media:content fileSize="73201068" type="audio/mpeg"
+                           url="https://www.podtrac.com/pts/redirect.mp3/dovetail.prxu.org/themoth/3855382b-14c3-41ec-9c4f-309470438772/MRH_1925_segment_1.mp3"/>
+            <content:encoded><![CDATA[
+        <p>In this hour, stories of things past shaping the here and now; the smell and taste of home, whirlwind romance, and finding comfort and kinship in the most dire of circumstances. This hour is hosted by Moth Senior Director Meg Bowles. <em>The Moth Radio Hour</em> is produced by The Moth and Jay Allison of Atlantic Public Media.</p>
+<p>Hosted by: Meg Bowles</p>
+<p>Storytellers: Talaya Moore, Nikesh Shukla, Andrew Solmssen, Caitlin FitzGerald</p>
+      <img src="http://feeds.feedburner.com/~r/themothpodcast/~4/DVqsQZ1TYeM" height="1" width="1" alt=""/>]]></content:encoded>
+            <feedburner:origLink>https://beta.prx.org/stories/298650</feedburner:origLink>
+        </item>
+        <item>
+            <guid isPermaLink="false">prx_24_5cdaeb77-0374-4954-b97b-ce9602ffe5a4</guid>
+            <title>Marjorie Tahbone: Awakening</title>
+            <pubDate>Fri, 29 Nov 2019 15:00:00 -0000</pubDate>
+            <link>http://feeds.themoth.org/~r/themothpodcast/~3/vvrrFLm2FTI/298649</link>
+            <description>
+                <![CDATA[<p>This week, Marjorie Kunaq Tahbone tells us about reconnecting to her culture and her ancestors.</p>
+<p>Hosted by: Dan Kennedy</p>
+<p>Storytellers: Marjorie Kunaq Tahbone</p>]]>
+            </description>
+            <enclosure
+                    url="https://www.podtrac.com/pts/redirect.mp3/dovetail.prxu.org/themoth/5cdaeb77-0374-4954-b97b-ce9602ffe5a4/Podcast_625_v8_with_interview.mp3"
+                    type="audio/mpeg" length="26726572"/>
+            <itunes:subtitle>This week, Marjorie Kunaq Tahbone tells us about reconnecting to her culture and her
+                ancestors.
+            </itunes:subtitle>
+            <itunes:explicit>clean</itunes:explicit>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:duration>21:03</itunes:duration>
+            <category>
+                <![CDATA[holiday]]>
+            </category>
+            <category>
+                <![CDATA[live]]>
+            </category>
+            <category>
+                <![CDATA[native]]>
+            </category>
+            <category>
+                <![CDATA[performance]]>
+            </category>
+            <category>
+                <![CDATA[stories]]>
+            </category>
+            <category>
+                <![CDATA[storytelling]]>
+            </category>
+            <category>
+                <![CDATA[tattoo]]>
+            </category>
+            <category>
+                <![CDATA[thanksgiving]]>
+            </category>
+            <itunes:author>The Moth</itunes:author>
+            <itunes:summary>
+                <![CDATA[This week, Marjorie Kunaq Tahbone tells us about reconnecting to her culture and her ancestors.
+Hosted by: Dan Kennedy
+Storytellers: Marjorie Kunaq Tahbone]]>
+            </itunes:summary>
+            <itunes:image
+                    href="https://f.prxu.org/themoth/5cdaeb77-0374-4954-b97b-ce9602ffe5a4/images/118aec1d-15d4-4be0-b533-547b19db5a80/new_logo_podcast.jpg"/>
+            <media:content fileSize="26726572" type="audio/mpeg"
+                           url="https://www.podtrac.com/pts/redirect.mp3/dovetail.prxu.org/themoth/5cdaeb77-0374-4954-b97b-ce9602ffe5a4/Podcast_625_v8_with_interview.mp3"/>
+            <content:encoded><![CDATA[
+        <p>This week, Marjorie Kunaq Tahbone tells us about reconnecting to her culture and her ancestors.</p>
+<p>Hosted by: Dan Kennedy</p>
+<p>Storytellers: Marjorie Kunaq Tahbone</p>
+      <img src="http://feeds.feedburner.com/~r/themothpodcast/~4/vvrrFLm2FTI" height="1" width="1" alt=""/>]]></content:encoded>
+            <feedburner:origLink>https://beta.prx.org/stories/298649</feedburner:origLink>
+        </item>
+        <item>
+            <guid isPermaLink="false">http://themoth.prx.org/?p=2445</guid>
+            <title>The Moth Radio Hour: A Bust, a Candy Bar, and Chad Everett</title>
+            <pubDate>Tue, 26 Nov 2019 21:00:00 -0000</pubDate>
+            <link>http://feeds.themoth.org/~r/themothpodcast/~3/0emKS9i_qLk/</link>
+            <description>
+                <![CDATA[<p>A man reluctantly inherits a 40 pound statue, a child feels responsible for her father’s troubles, and a documentary filmmaker gets obsessed with someone else’s dream. This hour is hosted by The Moth's Senior Director Jenifer Hixson.<em>The Moth Radio Hour</em>is produced by The Moth and Jay Allison of Atlantic Public Media.</p>
+<p>Storytellers: Jay Martel, Alexandra Rosas, Arthur Bradford</p>]]>
+            </description>
+            <enclosure
+                    url="https://www.podtrac.com/pts/redirect.mp3/dovetail.prxu.org/themoth/fe55be0b-d11b-4f18-856a-9833ba58153f/MRH_1424_2019_segment1.mp3"
+                    type="audio/mpeg" length="73211084"/>
+            <itunes:subtitle>A 40 pound statue, a father’s troubles, and someone else’s dream.</itunes:subtitle>
+            <itunes:explicit>clean</itunes:explicit>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:duration>53:20</itunes:duration>
+            <category>
+                <![CDATA[family]]>
+            </category>
+            <category>
+                <![CDATA[live]]>
+            </category>
+            <category>
+                <![CDATA[performance]]>
+            </category>
+            <category>
+                <![CDATA[stories]]>
+            </category>
+            <category>
+                <![CDATA[storytelling]]>
+            </category>
+            <itunes:author>The Moth</itunes:author>
+            <itunes:summary>
+                <![CDATA[A man reluctantly inherits a 40 pound statue, a child feels responsible for her father’s troubles, and a documentary filmmaker gets obsessed with someone else’s dream.]]>
+            </itunes:summary>
+            <itunes:image
+                    href="https://f.prxu.org/themoth/fe55be0b-d11b-4f18-856a-9833ba58153f/images/93b02555-6570-43fc-a9d2-d2840654fc4c/new_logo_podcast.jpg"/>
+            <media:content fileSize="73211084" type="audio/mpeg"
+                           url="https://www.podtrac.com/pts/redirect.mp3/dovetail.prxu.org/themoth/fe55be0b-d11b-4f18-856a-9833ba58153f/MRH_1424_2019_segment1.mp3"/>
+            <content:encoded><![CDATA[
+        <p>A man reluctantly inherits a 40 pound statue, a child feels responsible for her father’s troubles, and a documentary filmmaker gets obsessed with someone else’s dream. This hour is hosted by The Moth's Senior Director Jenifer Hixson.<em>The Moth Radio Hour</em>is produced by The Moth and Jay Allison of Atlantic Public Media.</p>
+<p>Storytellers: Jay Martel, Alexandra Rosas, Arthur Bradford</p>
+      <img src="http://feeds.feedburner.com/~r/themothpodcast/~4/0emKS9i_qLk" height="1" width="1" alt=""/>]]></content:encoded>
+            <feedburner:origLink>http://themoth.prx.org/the-moth-radio-hour-a-bust-a-candy-bar-and-chad-everett/
+            </feedburner:origLink>
+        </item>
+        <item>
+            <guid isPermaLink="false">prx_24_cc2caa77-6635-4d80-9a10-c4d42ef7a5b9</guid>
+            <title>The Moth Radio Hour: Out of Step, Out of Place</title>
+            <pubDate>Tue, 19 Nov 2019 21:00:00 -0000</pubDate>
+            <link>http://feeds.themoth.org/~r/themothpodcast/~3/wkCPJFyrpmc/298642</link>
+            <description>
+                <![CDATA[<p>In this hour, stories of outsiders, being at odds, and discomfort. A man feels more at home with machines than people, a young girl encounters a teacher who doesn't understand her, and a man becomes an unwilling participant on his father's hunting trip. This hour is hosted by The Moth's Senior Director Jenifer Hixson.<em>The Moth Radio Hour</em>is produced by The Moth and Jay Allison of Atlantic Public Media.</p>
+<p>Storytellers: John Elder Robison, Renee Watson, Jon Bennett</p>]]>
+            </description>
+            <enclosure
+                    url="https://www.podtrac.com/pts/redirect.mp3/dovetail.prxu.org/themoth/cc2caa77-6635-4d80-9a10-c4d42ef7a5b9/mh_1909_segment1.mp3"
+                    type="audio/mpeg" length="73333248"/>
+            <itunes:subtitle>In this hour, stories of outsiders, being at odds, and discomfort.</itunes:subtitle>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:duration>53:25</itunes:duration>
+            <category>
+                <![CDATA[live]]>
+            </category>
+            <category>
+                <![CDATA[performance ]]>
+            </category>
+            <category>
+                <![CDATA[storytelling]]>
+            </category>
+            <itunes:author>The Moth</itunes:author>
+            <itunes:summary>
+                <![CDATA[In this hour, stories of outsiders, being at odds, and discomfort. A man feels more at home with machines than people, a young girl encounters a teacher who doesn't understand her, and a man becomes an unwilling participant on his father's hunting trip. This hour is hosted by The Moth's Senior Director Jenifer Hixson.The Moth Radio Houris produced by The Moth and Jay Allison of Atlantic Public Media.
+Storytellers: John Elder Robison, Renee Watson, Jon Bennett]]>
+            </itunes:summary>
+            <itunes:image
+                    href="https://f.prxu.org/themoth/cc2caa77-6635-4d80-9a10-c4d42ef7a5b9/images/7ae46b15-079b-41b7-99bd-b1e5feed0d89/new_logo_podcast.jpg"/>
+            <media:content fileSize="73333248" type="audio/mpeg"
+                           url="https://www.podtrac.com/pts/redirect.mp3/dovetail.prxu.org/themoth/cc2caa77-6635-4d80-9a10-c4d42ef7a5b9/mh_1909_segment1.mp3"/>
+            <content:encoded><![CDATA[
+        <p>In this hour, stories of outsiders, being at odds, and discomfort. A man feels more at home with machines than people, a young girl encounters a teacher who doesn't understand her, and a man becomes an unwilling participant on his father's hunting trip. This hour is hosted by The Moth's Senior Director Jenifer Hixson.<em>The Moth Radio Hour</em>is produced by The Moth and Jay Allison of Atlantic Public Media.</p>
+<p>Storytellers: John Elder Robison, Renee Watson, Jon Bennett</p>
+      <img src="http://feeds.feedburner.com/~r/themothpodcast/~4/wkCPJFyrpmc" height="1" width="1" alt=""/>]]></content:encoded>
+            <feedburner:origLink>https://beta.prx.org/stories/298642</feedburner:origLink>
+        </item>
+        <item>
+            <guid isPermaLink="false">prx_24_851ddc4b-5647-4972-96eb-2e8bd09870c7</guid>
+            <title>The Moth Radio Hour: Around The World</title>
+            <pubDate>Tue, 12 Nov 2019 21:00:00 -0000</pubDate>
+            <link>http://feeds.themoth.org/~r/themothpodcast/~3/HwNzgOaWJOc/298611</link>
+            <description>
+                <![CDATA[<p>In this hour, stories from across the globe. From a secret in Kampala to ire in the air over Beijing, and the fear and hope both inherent in immigration, stories that span six continents and the spaces in between. This hour is hosted by The Moth's Artistic Director, Catherine Burns. The Moth Radio Hour is produced by The Moth and Jay Allison of Atlantic Public Media.</p>
+<p>Hosted by: Catherine Burns</p>
+<p>Storytellers: Emma Gordon, Kwong Yue Yang, Anastasia Krasilnikova, Robinah Babirye</p>]]>
+            </description>
+            <enclosure
+                    url="https://www.podtrac.com/pts/redirect.mp3/dovetail.prxu.org/themoth/851ddc4b-5647-4972-96eb-2e8bd09870c7/MRH_2002_segment1.mp3"
+                    type="audio/mpeg" length="73186044"/>
+            <itunes:subtitle>In this hour, stories from across the globe.</itunes:subtitle>
+            <itunes:explicit>clean</itunes:explicit>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:duration>53:19</itunes:duration>
+            <itunes:author>The Moth</itunes:author>
+            <itunes:summary>
+                <![CDATA[In this hour, stories from across the globe. From a secret in Kampala to ire in the air over Beijing, and the fear and hope both inherent in immigration, stories that span six continents and the spaces in between. This hour is hosted by The Moth's Artistic Director, Catherine Burns. The Moth Radio Hour is produced by The Moth and Jay Allison of Atlantic Public Media.
+Hosted by: Catherine Burns
+Storytellers: Emma Gordon, Kwong Yue Yang, Anastasia Krasilnikova, Robinah Babirye]]>
+            </itunes:summary>
+            <itunes:image
+                    href="https://f.prxu.org/themoth/851ddc4b-5647-4972-96eb-2e8bd09870c7/images/2c24cc99-727f-4590-ae63-a4145b2809ee/new_logo_podcast.jpg"/>
+            <media:content fileSize="73186044" type="audio/mpeg"
+                           url="https://www.podtrac.com/pts/redirect.mp3/dovetail.prxu.org/themoth/851ddc4b-5647-4972-96eb-2e8bd09870c7/MRH_2002_segment1.mp3"/>
+            <content:encoded><![CDATA[
+        <p>In this hour, stories from across the globe. From a secret in Kampala to ire in the air over Beijing, and the fear and hope both inherent in immigration, stories that span six continents and the spaces in between. This hour is hosted by The Moth's Artistic Director, Catherine Burns. The Moth Radio Hour is produced by The Moth and Jay Allison of Atlantic Public Media.</p>
+<p>Hosted by: Catherine Burns</p>
+<p>Storytellers: Emma Gordon, Kwong Yue Yang, Anastasia Krasilnikova, Robinah Babirye</p>
+      <img src="http://feeds.feedburner.com/~r/themothpodcast/~4/HwNzgOaWJOc" height="1" width="1" alt=""/>]]></content:encoded>
+            <feedburner:origLink>https://beta.prx.org/stories/298611</feedburner:origLink>
+        </item>
+        <item>
+            <guid isPermaLink="false">prx_24_09220738-fb49-4f1f-b93d-8153128f089c</guid>
+            <title>Veterans Day 2019: Rick Carrier</title>
+            <pubDate>Fri, 08 Nov 2019 15:00:00 -0000</pubDate>
+            <link>http://feeds.themoth.org/~r/themothpodcast/~3/x6V3CbDh-sQ/298148</link>
+            <description>
+                <![CDATA[<p>This week, we're honoring all of our veterans with a story from renaissance man, Rick Carrier, who tells us what it was like to be in the Army in the first wave of D-Day. The Moth would like to thank all veterans for their service and sacrifice.</p>
+<p>Hosted by: Dan Kennedy</p>
+<p>Storyteller: Rick Carrier</p>]]>
+            </description>
+            <enclosure
+                    url="https://www.podtrac.com/pts/redirect.mp3/dovetail.prxu.org/themoth/09220738-fb49-4f1f-b93d-8153128f089c/Podcast_623_v4.mp3"
+                    type="audio/mpeg" length="29597408"/>
+            <itunes:subtitle>This week, we're honoring all of our veterans with a story from renaissance man, Rick
+                Carrier.
+            </itunes:subtitle>
+            <itunes:explicit>clean</itunes:explicit>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:duration>23:03</itunes:duration>
+            <category>
+                <![CDATA[history]]>
+            </category>
+            <category>
+                <![CDATA[live]]>
+            </category>
+            <category>
+                <![CDATA[military]]>
+            </category>
+            <category>
+                <![CDATA[performance]]>
+            </category>
+            <category>
+                <![CDATA[veterans day]]>
+            </category>
+            <itunes:author>The Moth</itunes:author>
+            <itunes:summary>
+                <![CDATA[This week, we're honoring all of our veterans with a story from renaissance man, Rick Carrier, who tells us what it was like to be in the Army in the first wave of D-Day. The Moth would like to thank all veterans for their service and sacrifice.
+Hosted by: Dan Kennedy
+Storyteller: Rick Carrier]]>
+            </itunes:summary>
+            <itunes:image
+                    href="https://f.prxu.org/themoth/09220738-fb49-4f1f-b93d-8153128f089c/images/f06c97e5-8bce-4429-bdd2-18e9b5b53ad1/new_logo_podcast.jpg"/>
+            <media:content fileSize="29597408" type="audio/mpeg"
+                           url="https://www.podtrac.com/pts/redirect.mp3/dovetail.prxu.org/themoth/09220738-fb49-4f1f-b93d-8153128f089c/Podcast_623_v4.mp3"/>
+            <content:encoded><![CDATA[
+        <p>This week, we're honoring all of our veterans with a story from renaissance man, Rick Carrier, who tells us what it was like to be in the Army in the first wave of D-Day. The Moth would like to thank all veterans for their service and sacrifice.</p>
+<p>Hosted by: Dan Kennedy</p>
+<p>Storyteller: Rick Carrier</p>
+      <img src="http://feeds.feedburner.com/~r/themothpodcast/~4/x6V3CbDh-sQ" height="1" width="1" alt=""/>]]></content:encoded>
+            <feedburner:origLink>https://beta.prx.org/stories/298148</feedburner:origLink>
+        </item>
+        <item>
+            <guid isPermaLink="false">http://themoth.prx.org/?p=2690</guid>
+            <title>Live from NYC: Adoption, a Plane Crash and a Busload of Lutherans</title>
+            <pubDate>Tue, 05 Nov 2019 21:00:00 -0000</pubDate>
+            <link>http://feeds.themoth.org/~r/themothpodcast/~3/_DS_vCS0DLc/</link>
+            <description>
+                <![CDATA[<p>A special live edition of The Moth recorded at The Players Club in New York City. A professional who works with adoption services details the personal reason she was drawn to her work, a son desperately seeks a connection with his father after a near deadly plane crash, and a Lutheran minister visits The Middle East and combats her intense fear of heights.</p>
+<p>Storytellers: Maris Blechner, Joshua Wolf Shenk, and Nadia Bolz-Weber.</p>]]>
+            </description>
+            <enclosure
+                    url="https://www.podtrac.com/pts/redirect.mp3/dovetail.prxu.org/themoth/4e5c3532-4782-46c1-9d4a-269c5a2daa76/MRH_1611_2019_Version_segment1.mp3"
+                    type="audio/mpeg" length="73157874"/>
+            <itunes:subtitle>A special live edition of The Moth recorded at The Players Club in New York City. A
+                professional who works with adoption services details the personal reason she was drawn to her work, a
+                son desperately seeks a connection with his father after a near d...
+            </itunes:subtitle>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:duration>53:18</itunes:duration>
+            <category>
+                <![CDATA[family]]>
+            </category>
+            <category>
+                <![CDATA[live]]>
+            </category>
+            <category>
+                <![CDATA[performance]]>
+            </category>
+            <category>
+                <![CDATA[performing]]>
+            </category>
+            <category>
+                <![CDATA[religion]]>
+            </category>
+            <itunes:author>The Moth</itunes:author>
+            <itunes:summary>
+                <![CDATA[A special live edition of The Moth recorded at The Players Club in New York City. A professional who works with adoption services details the personal reason she was drawn to her work, a son desperately seeks a connection with his father after a near deadly plane crash, and a Lutheran minister visits The Middle […]]]>
+            </itunes:summary>
+            <itunes:image
+                    href="https://f.prxu.org/themoth/4e5c3532-4782-46c1-9d4a-269c5a2daa76/images/8cfb666b-b2f7-47df-9cc3-e8bdcd34e1f2/new_logo_podcast.jpg"/>
+            <media:content fileSize="73157874" type="audio/mpeg"
+                           url="https://www.podtrac.com/pts/redirect.mp3/dovetail.prxu.org/themoth/4e5c3532-4782-46c1-9d4a-269c5a2daa76/MRH_1611_2019_Version_segment1.mp3"/>
+            <content:encoded><![CDATA[
+        <p>A special live edition of The Moth recorded at The Players Club in New York City. A professional who works with adoption services details the personal reason she was drawn to her work, a son desperately seeks a connection with his father after a near deadly plane crash, and a Lutheran minister visits The Middle East and combats her intense fear of heights.</p>
+<p>Storytellers: Maris Blechner, Joshua Wolf Shenk, and Nadia Bolz-Weber.</p>
+      <img src="http://feeds.feedburner.com/~r/themothpodcast/~4/_DS_vCS0DLc" height="1" width="1" alt=""/>]]></content:encoded>
+            <feedburner:origLink>http://themoth.prx.org/moth-radio-hour-live-from-nyc/</feedburner:origLink>
+        </item>
+        <item>
+            <guid isPermaLink="false">prx_24_9a71e6da-2167-4e5c-82e9-b5cb8f4327bf</guid>
+            <title>All Hallows' Eve: Nelson Lugo &amp; Phil Plait</title>
+            <pubDate>Fri, 01 Nov 2019 14:00:00 -0000</pubDate>
+            <link>http://feeds.themoth.org/~r/themothpodcast/~3/tlgDJqmfMk8/297149</link>
+            <description>
+                <![CDATA[<p>This week, we're celebrating the many faces and names of the spookiest time of the year with stories that make us question our world view. Dame Wilburn hosts to tell us abut her community of witches and what this holiday means to them. Happy Birthday, Dame!</p>
+<p>Hosted by: Dame Wilburn</p>
+<p>Storytellers: Nelson Lugo, Phil Plait</p>]]>
+            </description>
+            <enclosure
+                    url="https://www.podtrac.com/pts/redirect.mp3/dovetail.prxu.org/themoth/9a71e6da-2167-4e5c-82e9-b5cb8f4327bf/Podcast_622_v3.mp3"
+                    type="audio/mpeg" length="29913538"/>
+            <itunes:subtitle>This week, we're celebrating the many faces and names of Halloween with stories that make
+                us question our world view.
+            </itunes:subtitle>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:duration>23:16</itunes:duration>
+            <category>
+                <![CDATA[family]]>
+            </category>
+            <category>
+                <![CDATA[halloween]]>
+            </category>
+            <category>
+                <![CDATA[scary]]>
+            </category>
+            <category>
+                <![CDATA[science]]>
+            </category>
+            <category>
+                <![CDATA[witch]]>
+            </category>
+            <itunes:author>The Moth</itunes:author>
+            <itunes:summary>
+                <![CDATA[This week, we're celebrating the many faces and names of the spookiest time of the year with stories that make us question our world view. Dame Wilburn hosts to tell us abut her community of witches and what this holiday means to them. Happy Birthday, Dame!
+Hosted by: Dame Wilburn
+Storytellers: Nelson Lugo, Phil Plait]]>
+            </itunes:summary>
+            <itunes:image
+                    href="https://f.prxu.org/themoth/9a71e6da-2167-4e5c-82e9-b5cb8f4327bf/images/4c89f46d-9a92-4fd9-9ccd-224173c4985c/new_logo_podcast.jpg"/>
+            <media:content fileSize="29913538" type="audio/mpeg"
+                           url="https://www.podtrac.com/pts/redirect.mp3/dovetail.prxu.org/themoth/9a71e6da-2167-4e5c-82e9-b5cb8f4327bf/Podcast_622_v3.mp3"/>
+            <content:encoded><![CDATA[
+        <p>This week, we're celebrating the many faces and names of the spookiest time of the year with stories that make us question our world view. Dame Wilburn hosts to tell us abut her community of witches and what this holiday means to them. Happy Birthday, Dame!</p>
+<p>Hosted by: Dame Wilburn</p>
+<p>Storytellers: Nelson Lugo, Phil Plait</p>
+      <img src="http://feeds.feedburner.com/~r/themothpodcast/~4/tlgDJqmfMk8" height="1" width="1" alt=""/>]]></content:encoded>
+            <feedburner:origLink>https://beta.prx.org/stories/297149</feedburner:origLink>
+        </item>
+        <item>
+            <guid isPermaLink="false">http://themoth.prx.org/?p=2928</guid>
+            <title>The Moth Radio Hour: Family, Neighbors and Extraordinary Proof</title>
+            <pubDate>Tue, 29 Oct 2019 20:00:00 -0000</pubDate>
+            <link>http://feeds.themoth.org/~r/themothpodcast/~3/9Nhi6jH2hgk/</link>
+            <description>
+                <![CDATA[<p>In this episode we travel to Chicago, the Navajo Nation in Arizona, and then end the hour on the sidelines of the Tour de France. A man struggles with his unruly neighbors, an artists shares memories of growing up on the Navajo Nation and a journalist exposes one of the greatest sports scandals of our time. The Moth Radio Hour is produced by The Moth and Jay Allison of Atlantic Public Media.</p>
+<p>Hosted by: Meg Bowles </p>
+<p>Storytellers: Shannon Cason, Melanie Yazzie, and David Walsh.</p>]]>
+            </description>
+            <enclosure
+                    url="https://www.podtrac.com/pts/redirect.mp3/dovetail.prxu.org/themoth/f3ef9c26-41fb-496c-8da2-0fa327f92e4d/MRH_1625_Podcast_Version_segment1.mp3"
+                    type="audio/mpeg" length="73216092"/>
+            <itunes:subtitle>In this episode we travel to Chicago, the Navajo Nation in Arizona, and then end the hour
+                on the sidelines of the Tour de France. A man struggles with his unruly neighbors, an artists shares
+                memories of growing up on the Navajo Nation and a journalist ...
+            </itunes:subtitle>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:duration>53:20</itunes:duration>
+            <category>
+                <![CDATA[Podcasts]]>
+            </category>
+            <category>
+                <![CDATA[WNYC]]>
+            </category>
+            <category>
+                <![CDATA[five]]>
+            </category>
+            <category>
+                <![CDATA[newer]]>
+            </category>
+            <itunes:author>The Moth</itunes:author>
+            <itunes:summary>
+                <![CDATA[In this episode we travel to Chicago, the Navajo Nation in Arizona, and then end the hour on the sidelines of the Tour de France. A man struggles with his unruly neighbors, an artists shares memories of growing up on the Navajo Nation and a journalist exposes one of the greatest sports scandals of our […]]]>
+            </itunes:summary>
+            <itunes:image
+                    href="https://f.prxu.org/themoth/f3ef9c26-41fb-496c-8da2-0fa327f92e4d/images/7654d90e-55be-4f2b-8915-b6a0137430df/new_logo_podcast.jpg"/>
+            <media:content fileSize="73216092" type="audio/mpeg"
+                           url="https://www.podtrac.com/pts/redirect.mp3/dovetail.prxu.org/themoth/f3ef9c26-41fb-496c-8da2-0fa327f92e4d/MRH_1625_Podcast_Version_segment1.mp3"/>
+            <content:encoded><![CDATA[
+        <p>In this episode we travel to Chicago, the Navajo Nation in Arizona, and then end the hour on the sidelines of the Tour de France. A man struggles with his unruly neighbors, an artists shares memories of growing up on the Navajo Nation and a journalist exposes one of the greatest sports scandals of our time. The Moth Radio Hour is produced by The Moth and Jay Allison of Atlantic Public Media.</p>
+<p>Hosted by: Meg Bowles </p>
+<p>Storytellers: Shannon Cason, Melanie Yazzie, and David Walsh.</p>
+      <img src="http://feeds.feedburner.com/~r/themothpodcast/~4/9Nhi6jH2hgk" height="1" width="1" alt=""/>]]></content:encoded>
+            <feedburner:origLink>http://themoth.prx.org/the-moth-radio-hour-family-neighbors-and-extraordinary-proof/
+            </feedburner:origLink>
+        </item>
+        <item>
+            <guid isPermaLink="false">prx_24_e74d7631-6521-4066-9081-807a627a653e</guid>
+            <title>The Moth Radio Hour: The Call</title>
+            <pubDate>Tue, 22 Oct 2019 20:00:00 -0000</pubDate>
+            <link>http://feeds.themoth.org/~r/themothpodcast/~3/0buEdMKnI-M/296058</link>
+            <description>
+                <![CDATA[<p>In this hour, stories of ringtones, rekindled connections, and revolution. Revealing phone calls, missed messages, and finding one's calling. This hour is hosted by The Moth's Executive Producer, Sarah Austin Jenness. The Moth Radio Hour is produced by The Moth and Jay Allison of Atlantic Public Media.</p>
+<p>Hosted by: Sarah Austin Jenness</p>
+<p>Storytellers: Susan Fee, Moran Cerf, Nancy Mahl, Cheech Marin</p>]]>
+            </description>
+            <enclosure
+                    url="https://www.podtrac.com/pts/redirect.mp3/dovetail.prxu.org/themoth/e74d7631-6521-4066-9081-807a627a653e/MRH_1923_Podcast_Version_segment1.mp3"
+                    type="audio/mpeg" length="73226734"/>
+            <itunes:subtitle>In this hour, stories of ringtones, rekindled connections, and revolution.
+            </itunes:subtitle>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:duration>53:21</itunes:duration>
+            <itunes:author>The Moth</itunes:author>
+            <itunes:summary>
+                <![CDATA[In this hour, stories of ringtones, rekindled connections, and revolution. Revealing phone calls, missed messages, and finding one's calling. This hour is hosted by The Moth's Executive Producer, Sarah Austin Jenness. The Moth Radio Hour is produced by The Moth and Jay Allison of Atlantic Public Media.
+Hosted by: Sarah Austin Jenness
+Storytellers: Susan Fee, Moran Cerf, Nancy Mahl, Cheech Marin]]>
+            </itunes:summary>
+            <itunes:image
+                    href="https://f.prxu.org/themoth/e74d7631-6521-4066-9081-807a627a653e/images/8c192e98-4f34-4e34-8030-94cc0ebcea60/new_logo_podcast.jpg"/>
+            <media:content fileSize="73226734" type="audio/mpeg"
+                           url="https://www.podtrac.com/pts/redirect.mp3/dovetail.prxu.org/themoth/e74d7631-6521-4066-9081-807a627a653e/MRH_1923_Podcast_Version_segment1.mp3"/>
+            <content:encoded><![CDATA[
+        <p>In this hour, stories of ringtones, rekindled connections, and revolution. Revealing phone calls, missed messages, and finding one's calling. This hour is hosted by The Moth's Executive Producer, Sarah Austin Jenness. The Moth Radio Hour is produced by The Moth and Jay Allison of Atlantic Public Media.</p>
+<p>Hosted by: Sarah Austin Jenness</p>
+<p>Storytellers: Susan Fee, Moran Cerf, Nancy Mahl, Cheech Marin</p>
+      <img src="http://feeds.feedburner.com/~r/themothpodcast/~4/0buEdMKnI-M" height="1" width="1" alt=""/>]]></content:encoded>
+            <feedburner:origLink>https://beta.prx.org/stories/296058</feedburner:origLink>
+        </item>
+        <item>
+            <guid isPermaLink="false">prx_24_828fd061-d348-43c6-8b6e-c3f5834865e3</guid>
+            <title>In Over My Head: Diana Thompson &amp; Karen Crowley</title>
+            <pubDate>Fri, 18 Oct 2019 14:46:56 -0000</pubDate>
+            <link>http://feeds.themoth.org/~r/themothpodcast/~3/ELB70zAARXw/295611</link>
+            <description>
+                <![CDATA[<p>This week, the tide is high, but we’re holding on! </p>
+<p>Hosted by: Dan Kennedy</p>
+<p>Storytellers: Diana Thompson, Karen Crowley </p>]]>
+            </description>
+            <enclosure
+                    url="https://www.podtrac.com/pts/redirect.mp3/dovetail.prxu.org/themoth/828fd061-d348-43c6-8b6e-c3f5834865e3/Podcast_620_v2.mp3"
+                    type="audio/mpeg" length="25179100"/>
+            <itunes:subtitle>This week, the tide is high, but we're holding on!</itunes:subtitle>
+            <itunes:explicit>clean</itunes:explicit>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:duration>19:59</itunes:duration>
+            <itunes:author>The Moth</itunes:author>
+            <itunes:summary>
+                <![CDATA[This week, the tide is high, but we’re holding on!
+Hosted by: Dan Kennedy
+Storytellers: Diana Thompson, Karen Crowley ]]>
+            </itunes:summary>
+            <itunes:image
+                    href="https://f.prxu.org/themoth/828fd061-d348-43c6-8b6e-c3f5834865e3/images/55c5c957-c660-4788-b15e-5424ffa6ed5a/new_logo_podcast.jpg"/>
+            <media:content fileSize="25179100" type="audio/mpeg"
+                           url="https://www.podtrac.com/pts/redirect.mp3/dovetail.prxu.org/themoth/828fd061-d348-43c6-8b6e-c3f5834865e3/Podcast_620_v2.mp3"/>
+            <content:encoded><![CDATA[
+        <p>This week, the tide is high, but we’re holding on! </p>
+<p>Hosted by: Dan Kennedy</p>
+<p>Storytellers: Diana Thompson, Karen Crowley </p>
+      <img src="http://feeds.feedburner.com/~r/themothpodcast/~4/ELB70zAARXw" height="1" width="1" alt=""/>]]></content:encoded>
+            <feedburner:origLink>https://beta.prx.org/stories/295611</feedburner:origLink>
+        </item>
+        <item>
+            <guid isPermaLink="false">http://themoth.prx.org/?p=2365</guid>
+            <title>The Moth Radio Hour: A Divorcee, A Freedom Rider &amp; A New Mother</title>
+            <pubDate>Tue, 15 Oct 2019 20:00:00 -0000</pubDate>
+            <link>http://feeds.themoth.org/~r/themothpodcast/~3/0RqMCYN7snA/</link>
+            <description>
+                <![CDATA[<p>A woman revisits her divorce; a Freedom Rider shares details of a night in jail; and an unexpected second pregnancy puts pressure on an already difficult marriage. This hour is hosted by Sarah Austin Jenness. The *Moth Radio Hour *is produced by The Moth and Jay Allison of Atlantic Public Media.</p>
+<p>Hosted by: Sarah Austin Jenness</p>
+<p>Storytellers: Cindy Chupack, Sala Udin, Rebecca Nesson</p>]]>
+            </description>
+            <enclosure
+                    url="https://www.podtrac.com/pts/redirect.mp3/dovetail.prxu.org/themoth/b316c366-cbf6-41bd-87fa-fd2864dce9d6/MRH_1413_Podcast_2019_segment1.mp3"
+                    type="audio/mpeg" length="73179158"/>
+            <itunes:subtitle>A divorce, a night in jail, and an unexpected second pregnancy.</itunes:subtitle>
+            <itunes:explicit>clean</itunes:explicit>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:duration>53:19</itunes:duration>
+            <category>
+                <![CDATA[family]]>
+            </category>
+            <category>
+                <![CDATA[live]]>
+            </category>
+            <category>
+                <![CDATA[love]]>
+            </category>
+            <category>
+                <![CDATA[performance]]>
+            </category>
+            <category>
+                <![CDATA[racism]]>
+            </category>
+            <itunes:author>The Moth</itunes:author>
+            <itunes:summary>
+                <![CDATA[A woman revisits her divorce; a Freedom Rider shares details of a night in jail; and an unexpected second pregnancy puts pressure on an already difficult marriage.]]>
+            </itunes:summary>
+            <itunes:image
+                    href="https://f.prxu.org/themoth/b316c366-cbf6-41bd-87fa-fd2864dce9d6/images/22430b42-bcd7-4542-a121-d1da33a1b57e/new_logo_podcast.jpg"/>
+            <media:content fileSize="73179158" type="audio/mpeg"
+                           url="https://www.podtrac.com/pts/redirect.mp3/dovetail.prxu.org/themoth/b316c366-cbf6-41bd-87fa-fd2864dce9d6/MRH_1413_Podcast_2019_segment1.mp3"/>
+            <content:encoded><![CDATA[
+        <p>A woman revisits her divorce; a Freedom Rider shares details of a night in jail; and an unexpected second pregnancy puts pressure on an already difficult marriage. This hour is hosted by Sarah Austin Jenness. The *Moth Radio Hour *is produced by The Moth and Jay Allison of Atlantic Public Media.</p>
+<p>Hosted by: Sarah Austin Jenness</p>
+<p>Storytellers: Cindy Chupack, Sala Udin, Rebecca Nesson</p>
+      <img src="http://feeds.feedburner.com/~r/themothpodcast/~4/0RqMCYN7snA" height="1" width="1" alt=""/>]]></content:encoded>
+            <feedburner:origLink>http://themoth.prx.org/the-moth-radio-hour-a-divorcee-a-freedom-rider-a-new-mother/
+            </feedburner:origLink>
+        </item>
+        <item>
+            <guid isPermaLink="false">prx_24_e18c515a-facb-46ac-b6fe-276ccb370f72</guid>
+            <title>The Moth Radio Hour: DNA Doesn't Lie</title>
+            <pubDate>Tue, 08 Oct 2019 20:00:00 -0000</pubDate>
+            <link>http://feeds.themoth.org/~r/themothpodcast/~3/NUiLylhd07w/294322</link>
+            <description>
+                <![CDATA[<p>In this hour, stories of the digital space and its affect on the family connection IRL. From digital carts to hive minds and data collection - closing geographical and temporal distance between past and present. This hour is hosted by The Moth's Senior Director, Meg Bowles. The<em>Moth Radio Hour</em>is produced by The Moth and Jay Allison of Atlantic Public Media.</p>
+<p>Hosted by: Meg Bowles</p>
+<p>Storytellers: Meg Ferrill, Anaïs Bordier, Trina Robinson</p>]]>
+            </description>
+            <enclosure
+                    url="https://www.podtrac.com/pts/redirect.mp3/dovetail.prxu.org/themoth/e18c515a-facb-46ac-b6fe-276ccb370f72/MRH_1915_Podcast_Versions_Segment1.mp3"
+                    type="audio/mpeg" length="73239880"/>
+            <itunes:subtitle>In this hour, stories of the digital space and its affect on the family connection IRL.
+            </itunes:subtitle>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:duration>53:21</itunes:duration>
+            <category>
+                <![CDATA[family]]>
+            </category>
+            <category>
+                <![CDATA[performance]]>
+            </category>
+            <category>
+                <![CDATA[stories]]>
+            </category>
+            <category>
+                <![CDATA[storytelling]]>
+            </category>
+            <itunes:author>The Moth</itunes:author>
+            <itunes:summary>
+                <![CDATA[In this hour, stories of the digital space and its affect on the family connection IRL. From digital carts to hive minds and data collection - closing geographical and temporal distance between past and present. This hour is hosted by The Moth's Senior Director, Meg Bowles. TheMoth Radio Houris produced by The Moth and Jay Allison of Atlantic Public Media.
+Hosted by: Meg Bowles
+Storytellers: Meg Ferrill, Anaïs Bordier, Trina Robinson]]>
+            </itunes:summary>
+            <itunes:image
+                    href="https://f.prxu.org/themoth/e18c515a-facb-46ac-b6fe-276ccb370f72/images/790d2a10-b624-4029-8f0a-d597c2f90f6c/new_logo_podcast.jpg"/>
+            <media:content fileSize="73239880" type="audio/mpeg"
+                           url="https://www.podtrac.com/pts/redirect.mp3/dovetail.prxu.org/themoth/e18c515a-facb-46ac-b6fe-276ccb370f72/MRH_1915_Podcast_Versions_Segment1.mp3"/>
+            <content:encoded><![CDATA[
+        <p>In this hour, stories of the digital space and its affect on the family connection IRL. From digital carts to hive minds and data collection - closing geographical and temporal distance between past and present. This hour is hosted by The Moth's Senior Director, Meg Bowles. The<em>Moth Radio Hour</em>is produced by The Moth and Jay Allison of Atlantic Public Media.</p>
+<p>Hosted by: Meg Bowles</p>
+<p>Storytellers: Meg Ferrill, Anaïs Bordier, Trina Robinson</p>
+      <img src="http://feeds.feedburner.com/~r/themothpodcast/~4/NUiLylhd07w" height="1" width="1" alt=""/>]]></content:encoded>
+            <feedburner:origLink>https://beta.prx.org/stories/294322</feedburner:origLink>
+        </item>
+        <item>
+            <guid isPermaLink="false">prx_24_b436eedb-10b5-4472-9ef8-e89c034c3df5</guid>
+            <title>Making Waves: Matty Struski &amp; Javier Morillo</title>
+            <pubDate>Fri, 04 Oct 2019 14:00:00 -0000</pubDate>
+            <link>http://feeds.themoth.org/~r/themothpodcast/~3/np_pZYFRRb8/293863</link>
+            <description>
+                <![CDATA[<p>This week, we have two stories about the times when small actions make big waves. It’s not too late to register to vote! For more information, head to themoth.org.</p>
+<p>Hosted by: Dame Wilburn</p>
+<p>Storytellers: Matty Struski, Javier Morillo</p>]]>
+            </description>
+            <enclosure
+                    url="https://www.podtrac.com/pts/redirect.mp3/dovetail.prxu.org/themoth/b436eedb-10b5-4472-9ef8-e89c034c3df5/Podcast_618_v3.mp3"
+                    type="audio/mpeg" length="30594626"/>
+            <itunes:subtitle>This week, we have two stories about the times when small actions make big waves.
+            </itunes:subtitle>
+            <itunes:explicit>clean</itunes:explicit>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:duration>23:44</itunes:duration>
+            <category>
+                <![CDATA[family]]>
+            </category>
+            <category>
+                <![CDATA[performance]]>
+            </category>
+            <category>
+                <![CDATA[politics]]>
+            </category>
+            <category>
+                <![CDATA[story]]>
+            </category>
+            <category>
+                <![CDATA[storytelling]]>
+            </category>
+            <itunes:author>The Moth</itunes:author>
+            <itunes:summary>
+                <![CDATA[This week, we have two stories about the times when small actions make big waves. It’s not too late to register to vote! For more information, head to themoth.org.
+Hosted by: Dame Wilburn
+Storytellers: Matty Struski, Javier Morillo]]>
+            </itunes:summary>
+            <itunes:image
+                    href="https://f.prxu.org/themoth/b436eedb-10b5-4472-9ef8-e89c034c3df5/images/2331515f-cb0d-459c-84f2-c49a1e7d634a/new_logo_podcast.jpg"/>
+            <media:content fileSize="30594626" type="audio/mpeg"
+                           url="https://www.podtrac.com/pts/redirect.mp3/dovetail.prxu.org/themoth/b436eedb-10b5-4472-9ef8-e89c034c3df5/Podcast_618_v3.mp3"/>
+            <content:encoded><![CDATA[
+        <p>This week, we have two stories about the times when small actions make big waves. It’s not too late to register to vote! For more information, head to themoth.org.</p>
+<p>Hosted by: Dame Wilburn</p>
+<p>Storytellers: Matty Struski, Javier Morillo</p>
+      <img src="http://feeds.feedburner.com/~r/themothpodcast/~4/np_pZYFRRb8" height="1" width="1" alt=""/>]]></content:encoded>
+            <feedburner:origLink>https://beta.prx.org/stories/293863</feedburner:origLink>
+        </item>
+        <item>
+            <guid isPermaLink="false">prx_24_46956b92-ada4-4ed5-8ab1-a7dd910101e6</guid>
+            <title>The Moth Radio Hour: Pregnancy, Cigarettes and Desert Islands</title>
+            <pubDate>Tue, 01 Oct 2019 20:38:23 -0000</pubDate>
+            <link>http://feeds.themoth.org/~r/themothpodcast/~3/-6pecq2rp8E/293601</link>
+            <description>
+                <![CDATA[<p>This week, Two women meet by chance on a dark street and share secrets, a father admits he was not quite ready for a second child, and a live calf shows up for Thanksgiving dinner. This hour is hosted by The Moth's Artistic Director, Catherine Burns. The <em>Moth Radio Hour</em> is produced by The Moth and Jay Allison of Atlantic Public Media.</p>
+<p>Hosted By: Catherine Burns</p>
+<p>Storytellers: Mike Birbiglia, Jenifer Hixson, Al Letson, Jeffrey Ruddell</p>]]>
+            </description>
+            <enclosure
+                    url="https://www.podtrac.com/pts/redirect.mp3/dovetail.prxu.org/themoth/46956b92-ada4-4ed5-8ab1-a7dd910101e6/MRH_1007_Podcast_Version_segment1.mp3"
+                    type="audio/mpeg" length="73174776"/>
+            <itunes:subtitle>Two women meet by chance, a father not quite ready, and a live calf.</itunes:subtitle>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:duration>53:18</itunes:duration>
+            <category>
+                <![CDATA[family]]>
+            </category>
+            <category>
+                <![CDATA[love]]>
+            </category>
+            <category>
+                <![CDATA[performance]]>
+            </category>
+            <category>
+                <![CDATA[stories]]>
+            </category>
+            <category>
+                <![CDATA[storytelling]]>
+            </category>
+            <itunes:author>The Moth</itunes:author>
+            <itunes:summary>
+                <![CDATA[This week, Two women meet by chance on a dark street and share secrets, a father admits he was not quite ready for a second child, and a live calf shows up for Thanksgiving dinner. This hour is hosted by The Moth's Artistic Director, Catherine Burns. The Moth Radio Hour is produced by The Moth and Jay Allison of Atlantic Public Media.
+Hosted By: Catherine Burns
+Storytellers: Mike Birbiglia, Jenifer Hixson, Al Letson, Jeffrey Ruddell]]>
+            </itunes:summary>
+            <itunes:image
+                    href="https://f.prxu.org/themoth/46956b92-ada4-4ed5-8ab1-a7dd910101e6/images/ffbde08a-726c-4d01-a04d-d1f8ba9974d3/new_logo_podcast.jpg"/>
+            <media:content fileSize="73174776" type="audio/mpeg"
+                           url="https://www.podtrac.com/pts/redirect.mp3/dovetail.prxu.org/themoth/46956b92-ada4-4ed5-8ab1-a7dd910101e6/MRH_1007_Podcast_Version_segment1.mp3"/>
+            <content:encoded><![CDATA[
+        <p>This week, Two women meet by chance on a dark street and share secrets, a father admits he was not quite ready for a second child, and a live calf shows up for Thanksgiving dinner. This hour is hosted by The Moth's Artistic Director, Catherine Burns. The <em>Moth Radio Hour</em> is produced by The Moth and Jay Allison of Atlantic Public Media.</p>
+<p>Hosted By: Catherine Burns</p>
+<p>Storytellers: Mike Birbiglia, Jenifer Hixson, Al Letson, Jeffrey Ruddell</p>
+      <img src="http://feeds.feedburner.com/~r/themothpodcast/~4/-6pecq2rp8E" height="1" width="1" alt=""/>]]></content:encoded>
+            <feedburner:origLink>https://beta.prx.org/stories/293601</feedburner:origLink>
+        </item>
+        <item>
+            <guid isPermaLink="false">prx_24_b321d260-3c39-4396-88c5-1ef5569fbf70</guid>
+            <title>The Moth Radio Hour: Confrontations</title>
+            <pubDate>Tue, 24 Sep 2019 20:00:00 -0000</pubDate>
+            <link>http://feeds.themoth.org/~r/themothpodcast/~3/cgAlauEhahA/292753</link>
+            <description>
+                <![CDATA[<p>In this hour, stories of war, face-offs, and confronting the demons within. A man must come to terms with his sexuality (as well as those who judge him), a woman learns that her ladylike upbringing has lasting marks, and a child fights to survive The Killing Fields of Cambodia. This hour is hosted by The Moth's Artistic Director, Catherine Burns. The <em>Moth Radio Hour</em> is produced by The Moth and Jay Allison of Atlantic Public Media.</p>
+<p>Hosted by: Catherine Burns</p>
+<p>Storytellers: Pádraig Ó'Tuama, Tricia Rose Burt, Arn Chorn-Pond </p>]]>
+            </description>
+            <enclosure
+                    url="https://www.podtrac.com/pts/redirect.mp3/dovetail.prxu.org/themoth/b321d260-3c39-4396-88c5-1ef5569fbf70/MRH_1922_segment_1.mp3"
+                    type="audio/mpeg" length="72806688"/>
+            <itunes:subtitle>In this hour, stories of war, face-offs, and confronting the demons within.
+            </itunes:subtitle>
+            <itunes:explicit>yes</itunes:explicit>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:duration>53:03</itunes:duration>
+            <category>
+                <![CDATA[lgbtq]]>
+            </category>
+            <category>
+                <![CDATA[music]]>
+            </category>
+            <category>
+                <![CDATA[performance]]>
+            </category>
+            <category>
+                <![CDATA[sex]]>
+            </category>
+            <category>
+                <![CDATA[stories]]>
+            </category>
+            <category>
+                <![CDATA[story]]>
+            </category>
+            <category>
+                <![CDATA[storytelling]]>
+            </category>
+            <category>
+                <![CDATA[war]]>
+            </category>
+            <itunes:author>The Moth</itunes:author>
+            <itunes:summary>
+                <![CDATA[In this hour, stories of war, face-offs, and confronting the demons within. A man must come to terms with his sexuality (as well as those who judge him), a woman learns that her ladylike upbringing has lasting marks, and a child fights to survive The Killing Fields of Cambodia. This hour is hosted by The Moth's Artistic Director, Catherine Burns. The Moth Radio Hour is produced by The Moth and Jay Allison of Atlantic Public Media.
+Hosted by: Catherine Burns
+Storytellers: Pádraig Ó'Tuama, Tricia Rose Burt, Arn Chorn-Pond ]]>
+            </itunes:summary>
+            <itunes:image
+                    href="https://f.prxu.org/themoth/b321d260-3c39-4396-88c5-1ef5569fbf70/images/20956183-1ec4-45e0-883d-1972dc2a3523/new_logo_podcast.jpg"/>
+            <media:content fileSize="72806688" type="audio/mpeg"
+                           url="https://www.podtrac.com/pts/redirect.mp3/dovetail.prxu.org/themoth/b321d260-3c39-4396-88c5-1ef5569fbf70/MRH_1922_segment_1.mp3"/>
+            <content:encoded><![CDATA[
+        <p>In this hour, stories of war, face-offs, and confronting the demons within. A man must come to terms with his sexuality (as well as those who judge him), a woman learns that her ladylike upbringing has lasting marks, and a child fights to survive The Killing Fields of Cambodia. This hour is hosted by The Moth's Artistic Director, Catherine Burns. The <em>Moth Radio Hour</em> is produced by The Moth and Jay Allison of Atlantic Public Media.</p>
+<p>Hosted by: Catherine Burns</p>
+<p>Storytellers: Pádraig Ó'Tuama, Tricia Rose Burt, Arn Chorn-Pond </p>
+      <img src="http://feeds.feedburner.com/~r/themothpodcast/~4/cgAlauEhahA" height="1" width="1" alt=""/>]]></content:encoded>
+            <feedburner:origLink>https://beta.prx.org/stories/292753</feedburner:origLink>
+        </item>
+    </channel>
+</rss>
