@@ -6,6 +6,9 @@ import org.junit.jupiter.api.Test;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
+import java.io.IOException;
+import java.time.Instant;
+import java.util.UUID;
 
 import static org.mockito.Mockito.*;
 
@@ -37,13 +40,20 @@ class ChannelManagerTest {
 
 
     private Channel generateChannel(int podcastsCount) {
-        Channel channel = new Channel("channel", "title");
+        Channel channel = new Channel(generateRandomString(), generateRandomString());
 
+        channel.setDescription(channel.getDescription());
+        channel.setLastPublished(Instant.now());
+        channel.setStarred(true);
         for (int i = 0; i < podcastsCount; i++) {
-            Podcast podcast = new Podcast("uuid" + i, "title" + i);
+            Podcast podcast = new Podcast(generateRandomString(), generateRandomString());
             channel.getPodcasts().add(podcast);
         }
 
         return channel;
+    }
+
+    private static String generateRandomString() {
+        return UUID.randomUUID().toString();
     }
 }
