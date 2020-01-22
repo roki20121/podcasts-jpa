@@ -17,20 +17,20 @@ import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class XmlParserTest {
+class ChannelParserTest {
 
     @ParameterizedTest
     @MethodSource("listFullFileNames")
     void parse_newChannel_parsedAllContent(String fileName) throws IOException {
         File podcastFile = getResourceFile(fileName);
         FileInputStream inputStream = new FileInputStream(podcastFile);
-        XmlParser xmlParser = new XmlParser(inputStream);
+        ChannelParser channelParser = new ChannelParser(inputStream);
 
-        xmlParser.parse();
+        channelParser.parse();
 
-        assertTrue(xmlParser.hasNewPodcasts());
+        assertTrue(channelParser.hasNewPodcasts());
 
-        Channel channel = xmlParser.getChannel();
+        Channel channel = channelParser.getChannel();
 
         assertNotNull(channel);
         assertNotNull(channel.getPodcasts());
@@ -54,13 +54,13 @@ class XmlParserTest {
             throws IOException {
         File channelFile = getResourceFile(fileName);
         FileInputStream inputStream = new FileInputStream(channelFile);
-        XmlParser xmlParser = new XmlParser(inputStream, lastSavedUuid);
+        ChannelParser channelParser = new ChannelParser(inputStream, lastSavedUuid);
 
-        xmlParser.parse();
+        channelParser.parse();
 
-        assertTrue(xmlParser.hasNewPodcasts());
+        assertTrue(channelParser.hasNewPodcasts());
 
-        Channel channel = xmlParser.getChannel();
+        Channel channel = channelParser.getChannel();
 
         assertNotNull(channel);
         assertEquals(newPodcastsCount, channel.getPodcasts().size());
@@ -71,19 +71,19 @@ class XmlParserTest {
     void parse_knownChannel_noNewContent(String fileName, String lastSavedUuid) throws IOException {
         File channelFile = getResourceFile(fileName);
         FileInputStream inputStream = new FileInputStream(channelFile);
-        XmlParser xmlParser = new XmlParser(inputStream, lastSavedUuid);
+        ChannelParser channelParser = new ChannelParser(inputStream, lastSavedUuid);
 
-        xmlParser.parse();
+        channelParser.parse();
 
-        assertFalse(xmlParser.hasNewPodcasts());
+        assertFalse(channelParser.hasNewPodcasts());
     }
 
     @Test
     void getChannel_nothingNew_throwsException() {
-        XmlParser xmlParser = new XmlParser(new ByteArrayInputStream(new byte[0]));
+        ChannelParser channelParser = new ChannelParser(new ByteArrayInputStream(new byte[0]));
 
         assertThrows(IllegalStateException.class,
-                xmlParser::getChannel);
+                channelParser::getChannel);
     }
 
     private static Stream<Arguments> getKnownChannel() {
@@ -116,7 +116,7 @@ class XmlParserTest {
     }
 
     private static File getResourceFile(String pathInResources) {
-        String path = XmlParserTest.class.getClassLoader().getResource(pathInResources).getPath();
+        String path = ChannelParserTest.class.getClassLoader().getResource(pathInResources).getPath();
         return new File(path);
     }
 

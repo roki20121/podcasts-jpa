@@ -17,7 +17,7 @@ import java.util.Date;
 import java.util.List;
 import java.util.Locale;
 
-public class XmlParser {
+public class ChannelParser {
 
     private static final SimpleDateFormat simpleDateFormat =
             new SimpleDateFormat("EEE, dd MMM yyyy HH:mm:ss z", Locale.US);
@@ -30,11 +30,11 @@ public class XmlParser {
     private boolean hasNewPodcasts;
     private Channel channel;
 
-    public XmlParser(InputStream inputStream) {
+    public ChannelParser(InputStream inputStream) {
         this(inputStream, null);
     }
 
-    public XmlParser(InputStream inputStream, String lastStoredGuid) {
+    public ChannelParser(InputStream inputStream, String lastStoredGuid) {
         this.inputStream = inputStream;
         this.lastStoredGuid = lastStoredGuid;
     }
