@@ -6,6 +6,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
+import org.junit.jupiter.params.provider.ValueSource;
 
 import java.io.ByteArrayInputStream;
 import java.io.File;
@@ -76,6 +77,27 @@ class ChannelParserTest {
         channelParser.parse();
 
         assertFalse(channelParser.hasNewPodcasts());
+    }
+
+    @Test
+    void parse_emptyStream_throwsException() {
+        ChannelParser channelParser = new ChannelParser(new ByteArrayInputStream(new byte[0]));
+
+        assertThrows(IllegalStateException.class,
+                channelParser::parse);
+    }
+
+    @ParameterizedTest
+    @ValueSource(strings = {"channels/cbc_full.xml"})
+    void parse_secondCall_throwsException(String fileName) throws IOException {
+        File channelFile = getResourceFile(fileName);
+
+        FileInputStream inputStream = new FileInputStream(channelFile);
+        ChannelParser channelParser = new ChannelParser(inputStream);
+
+        channelParser.parse();
+
+        assertThrows(IllegalStateException.class, channelParser::parse);
     }
 
     @Test

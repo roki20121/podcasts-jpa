@@ -7,6 +7,7 @@ import org.xmlpull.v1.XmlPullParser;
 import org.xmlpull.v1.XmlPullParserException;
 import org.xmlpull.v1.XmlPullParserFactory;
 
+import java.io.EOFException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.text.ParseException;
@@ -128,6 +129,8 @@ public class ChannelParser {
             this.channel = channel;
         } catch (XmlPullParserException e) {
             e.printStackTrace();
+        } catch (EOFException e) {
+            throw new IllegalStateException("End of stream");
         }
     }
 
