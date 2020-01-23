@@ -1,6 +1,7 @@
 package com.roman.podcastplayer.manage;
 
 import com.roman.podcastplayer.entity.Channel;
+import com.roman.podcastplayer.entity.ChannelUtils;
 import com.roman.podcastplayer.entity.Podcast;
 import com.roman.podcastplayer.parser.ChannelParser;
 import org.junit.jupiter.api.Test;
@@ -27,7 +28,7 @@ class ChannelManagerTest {
         EntityManagerFactory factory = mock(EntityManagerFactory.class);
         when(factory.createEntityManager()).thenReturn(manager);
 
-        Channel channel = generateChannel(podcastsCount, url);
+        Channel channel = ChannelUtils.generateChannel(podcastsCount, url);
         ChannelManager channelManager = new ChannelManager(factory);
 
         channelManager.saveChannel(channel, url);
