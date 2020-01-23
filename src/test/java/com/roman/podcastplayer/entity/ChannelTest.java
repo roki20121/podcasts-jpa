@@ -1,5 +1,6 @@
 package com.roman.podcastplayer.entity;
 
+import com.roman.podcastplayer.TestUtils;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;

@@ -1,5 +1,6 @@
 package com.roman.podcastplayer.parser;
 
+import com.roman.podcastplayer.TestUtils;
 import com.roman.podcastplayer.entity.Channel;
 import com.roman.podcastplayer.entity.Podcast;
 import org.junit.jupiter.api.Test;
@@ -9,9 +10,8 @@ import org.junit.jupiter.params.provider.MethodSource;
 import org.junit.jupiter.params.provider.ValueSource;
 
 import java.io.ByteArrayInputStream;
-import java.io.File;
-import java.io.FileInputStream;
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Stream;
@@ -23,8 +23,7 @@ class ChannelParserTest {
     @ParameterizedTest
     @MethodSource("listFullFileNames")
     void parse_newChannel_parsedAllContent(String fileName) throws IOException {
-        File podcastFile = getResourceFile(fileName);
-        FileInputStream inputStream = new FileInputStream(podcastFile);
+        InputStream inputStream = TestUtils.getResourceInputStream(fileName);
         ChannelParser channelParser = new ChannelParser(inputStream);
 
         channelParser.parse();
@@ -53,8 +52,7 @@ class ChannelParserTest {
     @MethodSource("getKnownChannelsAndExpectedValues")
     void parse_knownChannel_newContent(String fileName, String lastSavedUuid, int newPodcastsCount)
             throws IOException {
-        File channelFile = getResourceFile(fileName);
-        FileInputStream inputStream = new FileInputStream(channelFile);
+        InputStream inputStream = TestUtils.getResourceInputStream(fileName);
         ChannelParser channelParser = new ChannelParser(inputStream, lastSavedUuid);
 
         channelParser.parse();
@@ -70,8 +68,7 @@ class ChannelParserTest {
     @ParameterizedTest
     @MethodSource("getKnownChannel")
     void parse_knownChannel_noNewContent(String fileName, String lastSavedUuid) throws IOException {
-        File channelFile = getResourceFile(fileName);
-        FileInputStream inputStream = new FileInputStream(channelFile);
+        InputStream inputStream = TestUtils.getResourceInputStream(fileName);
         ChannelParser channelParser = new ChannelParser(inputStream, lastSavedUuid);
 
         channelParser.parse();
@@ -90,9 +87,8 @@ class ChannelParserTest {
     @ParameterizedTest
     @ValueSource(strings = {"channels/cbc_full.xml"})
     void parse_secondCall_throwsException(String fileName) throws IOException {
-        File channelFile = getResourceFile(fileName);
 
-        FileInputStream inputStream = new FileInputStream(channelFile);
+        InputStream inputStream = TestUtils.getResourceInputStream(fileName);
         ChannelParser channelParser = new ChannelParser(inputStream);
 
         channelParser.parse();
@@ -137,9 +133,5 @@ class ChannelParserTest {
         return Arrays.asList(names);
     }
 
-    private static File getResourceFile(String pathInResources) {
-        String path = ChannelParserTest.class.getClassLoader().getResource(pathInResources).getPath();
-        return new File(path);
-    }
 
 }
