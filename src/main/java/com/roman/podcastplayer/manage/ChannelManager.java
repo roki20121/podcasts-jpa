@@ -40,10 +40,15 @@ public class ChannelManager {
         query.where(builder.equal(root.get("url"), url));
 
         TypedQuery<Channel> typedQuery = manager.createQuery(query);
-        Channel result = typedQuery.getSingleResult();
 
-        manager.close();
-        return result;
+        try {
+            return typedQuery.getSingleResult();
+        } catch (NoResultException e) {
+            return null;
+        } finally {
+            manager.close();
+        }
+
     }
 
 }
