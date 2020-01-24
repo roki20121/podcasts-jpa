@@ -1,9 +1,6 @@
 package com.roman.podcastplayer.entity;
 
-import lombok.Data;
-import lombok.NoArgsConstructor;
-import lombok.NonNull;
-import lombok.RequiredArgsConstructor;
+import lombok.*;
 
 import javax.persistence.*;
 import java.time.Instant;
@@ -34,8 +31,15 @@ public class Channel {
 
     private boolean starred;
 
+    @Setter(AccessLevel.NONE)
     @OneToMany(mappedBy = "channel", cascade = CascadeType.REMOVE)
     private List<Podcast> podcasts = new LinkedList<>();
+
+
+    public void setPodcasts(List<Podcast> podcasts) {
+        this.podcasts.clear();
+        podcasts.forEach(this::addPodcast);
+    }
 
     public void addPodcast(Podcast podcast) {
         podcasts.add(podcast);
