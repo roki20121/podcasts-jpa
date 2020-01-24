@@ -18,7 +18,7 @@ import java.util.Date;
 import java.util.List;
 import java.util.Locale;
 
-public class ChannelParser {
+public class ChannelParser implements AutoCloseable {
 
     private static final SimpleDateFormat simpleDateFormat =
             new SimpleDateFormat("EEE, dd MMM yyyy HH:mm:ss z", Locale.US);
@@ -160,4 +160,11 @@ public class ChannelParser {
         }
     }
 
+    /**
+     * Closes underlying InputStream
+     */
+    @Override
+    public void close() throws IOException {
+        inputStream.close();
+    }
 }

@@ -46,6 +46,8 @@ class ChannelParserTest {
             assertNotNull(podcast.getDescription());
 
         }
+
+        channelParser.close();
     }
 
     @ParameterizedTest
@@ -63,6 +65,8 @@ class ChannelParserTest {
 
         assertNotNull(channel);
         assertEquals(newPodcastsCount, channel.getPodcasts().size());
+
+        channelParser.close();
     }
 
     @ParameterizedTest
@@ -74,14 +78,18 @@ class ChannelParserTest {
         channelParser.parse();
 
         assertFalse(channelParser.hasNewPodcasts());
+
+        channelParser.close();
     }
 
     @Test
-    void parse_emptyStream_throwsException() {
+    void parse_emptyStream_throwsException() throws IOException {
         ChannelParser channelParser = new ChannelParser(new ByteArrayInputStream(new byte[0]));
 
         assertThrows(IllegalStateException.class,
                 channelParser::parse);
+
+        channelParser.close();
     }
 
     @ParameterizedTest
@@ -94,14 +102,18 @@ class ChannelParserTest {
         channelParser.parse();
 
         assertThrows(IllegalStateException.class, channelParser::parse);
+
+        channelParser.close();
     }
 
     @Test
-    void getChannel_nothingNew_throwsException() {
+    void getChannel_nothingNew_throwsException() throws IOException {
         ChannelParser channelParser = new ChannelParser(new ByteArrayInputStream(new byte[0]));
 
         assertThrows(IllegalStateException.class,
                 channelParser::getChannel);
+
+        channelParser.close();
     }
 
     private static Stream<Arguments> getKnownChannel() {
