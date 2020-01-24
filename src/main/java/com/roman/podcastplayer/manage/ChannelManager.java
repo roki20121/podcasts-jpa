@@ -13,7 +13,6 @@ import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Root;
 import java.io.IOException;
-import java.sql.SQLException;
 import java.util.List;
 
 public class ChannelManager {
@@ -25,22 +24,36 @@ public class ChannelManager {
     }
 
 
-    public void saveChannel(Channel channel, String url) {
+    /**
+     * Save channel in the database
+     *
+     * @return channel id in the database
+     */
+    public Integer saveChannel(Channel channel, String url) {
         EntityManager manager = factory.createEntityManager();
+
+        manager.getTransaction().begin();
         channel.setUrl(url);
         manager.persist(channel);
         for (Podcast podcast : channel.getPodcasts()) {
             manager.persist(podcast);
         }
+        manager.getTransaction().commit();
 
         manager.close();
+
+        return channel.getId();
     }
 
-    public void subscribe(String url, UrlChannelParserConverter converter) throws SQLException, IOException {
+    public Integer subscribe(String url, UrlChannelParserConverter converter) throws IOException {
+        Channel lookupChannel = findChannelByUrl(url);
+        if (lookupChannel != null) {
+            return null;
+        }
         try (ChannelParser parser = converter.openChannelParser(url, null)) {
             parser.parse();
             Channel channel = parser.getChannel();
-            saveChannel(channel, url);
+            return saveChannel(channel, url);
         }
     }
 
