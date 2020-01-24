@@ -14,6 +14,7 @@ import java.util.List;
 @Data
 @RequiredArgsConstructor
 @NoArgsConstructor
+@NamedQuery(name = "get all Channels", query = "select c from Channel c")
 public class Channel {
 
     @Id
@@ -33,7 +34,7 @@ public class Channel {
 
     private boolean starred;
 
-    @OneToMany(mappedBy = "channel")
+    @OneToMany(mappedBy = "channel", cascade = CascadeType.REMOVE)
     private List<Podcast> podcasts = new LinkedList<>();
 
     public void addPodcast(Podcast podcast) {
