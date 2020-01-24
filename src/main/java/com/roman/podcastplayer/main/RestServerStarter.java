@@ -15,8 +15,9 @@ public class RestServerStarter {
         server.setHandler(context);
 
         ServletHolder holder = context.addServlet(ServletContainer.class, "/rest/*");
+        holder.setInitParameter("javax.ws.rs.Application", "com.roman.podcastplayer.rest.PodcastApplication");
+//        holder.setInitParameter("jersey.config.server.provider.packages", "com.roman.podcastplayer.rest");
         holder.setInitOrder(1);
-        holder.setInitParameter("jersey.config.server.provider.packages", "com.roman.podcastplayer.rest");
 
         try {
             server.start();

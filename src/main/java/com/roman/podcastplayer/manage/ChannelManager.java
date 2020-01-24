@@ -5,24 +5,29 @@ import com.roman.podcastplayer.entity.Podcast;
 import com.roman.podcastplayer.parser.ChannelParser;
 import com.roman.podcastplayer.parser.UrlChannelParserConverter;
 
-import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.NoResultException;
-import javax.persistence.TypedQuery;
+import javax.ejb.Stateless;
+import javax.persistence.*;
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Root;
 import java.io.IOException;
 import java.util.List;
 
+@Stateless
 public class ChannelManager {
 
+    @PersistenceContext(unitName = "com.roman.podcasts")
     private EntityManagerFactory factory;
+
+    @PersistenceContext(unitName = "com.roman.podcasts")
+    private EntityManager manager;
 
     public ChannelManager(EntityManagerFactory factory) {
         this.factory = factory;
     }
 
+    public ChannelManager() {
+    }
 
     /**
      * Save channel in the database
@@ -109,6 +114,15 @@ public class ChannelManager {
             manager.close();
         }
 
+    }
+
+
+    public Channel findChannelById(Integer id) {
+
+        Channel channel = manager.find(Channel.class, id);
+
+
+        return channel;
     }
 
 }
