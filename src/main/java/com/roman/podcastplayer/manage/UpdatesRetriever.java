@@ -19,11 +19,12 @@ public class UpdatesRetriever {
 
     Optional<Channel> readChannel(String url, String lastUuid) throws IOException {
 
-        ChannelParser parser = converter.openChannelParser(url, lastUuid);
-
-        if (parser.hasNewPodcasts()) {
-            return Optional.of(parser.getChannel());
+        try (ChannelParser parser = converter.openChannelParser(url, lastUuid)) {
+            if (parser.hasNewPodcasts()) {
+                return Optional.of(parser.getChannel());
+            }
         }
+
         return Optional.empty();
     }
 
