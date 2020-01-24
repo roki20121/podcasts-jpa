@@ -38,6 +38,7 @@ public class ChannelManager {
 
     public void subscribe(String url, UrlChannelParserConverter converter) throws SQLException, IOException {
         try (ChannelParser parser = converter.openChannelParser(url, null)) {
+            parser.parse();
             Channel channel = parser.getChannel();
             saveChannel(channel, url);
         }
