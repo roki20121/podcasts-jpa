@@ -5,7 +5,7 @@ import com.roman.podcastplayer.entity.Podcast;
 import com.roman.podcastplayer.parser.ChannelParser;
 import com.roman.podcastplayer.parser.UrlChannelParserConverter;
 
-import javax.ejb.Stateless;
+import javax.ejb.Stateful;
 import javax.persistence.*;
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
@@ -13,7 +13,7 @@ import javax.persistence.criteria.Root;
 import java.io.IOException;
 import java.util.List;
 
-@Stateless
+@Stateful()
 public class ChannelManager {
 
     @PersistenceUnit(unitName = "com.roman.podcasts") //  todo  remove or fix. Does not work
@@ -59,8 +59,8 @@ public class ChannelManager {
         }
     }
 
-    public void unsubscribe(String url) {
-        Channel channel = findChannelByUrl(url);
+    public void unsubscribe(Integer id) {
+        Channel channel = findChannelById(id);
 
         if (channel == null) {
             return;
