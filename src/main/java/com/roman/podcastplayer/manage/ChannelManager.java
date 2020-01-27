@@ -16,11 +16,8 @@ import java.util.List;
 @Stateless
 public class ChannelManager {
 
-    @PersistenceContext(unitName = "com.roman.podcasts")
+    @PersistenceUnit(unitName = "com.roman.podcasts") //  todo  remove or fix. Does not work
     private EntityManagerFactory factory;
-
-    @PersistenceContext(unitName = "com.roman.podcasts")
-    private EntityManager manager;
 
     public ChannelManager(EntityManagerFactory factory) {
         this.factory = factory;
@@ -119,10 +116,13 @@ public class ChannelManager {
 
     public Channel findChannelById(Integer id) {
 
+        EntityManager manager = factory.createEntityManager();
+
         Channel channel = manager.find(Channel.class, id);
 
-
+        manager.close();
         return channel;
+
     }
 
 }
