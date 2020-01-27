@@ -55,4 +55,17 @@ public class ChannelEndpoint {
         return Response.ok(channelDto).build();
     }
 
+    @DELETE
+    @Path("/{channelId}")
+    public Response deleteChannel(@PathParam("channelId") Integer channelId) {
+
+        try {
+            manager.unsubscribe(channelId);
+            return Response.ok().build();
+        } catch (Exception e) {
+            e.printStackTrace();
+            return Response.status(500).build();
+        }
+
+    }
 }
