@@ -3,6 +3,7 @@ package com.roman.podcastplayer.rest.endpoint;
 import com.roman.podcastplayer.entity.Channel;
 import com.roman.podcastplayer.manage.ChannelManager;
 import com.roman.podcastplayer.parser.UrlChannelParserConverter;
+import com.roman.podcastplayer.rest.dto.ChannelDto;
 
 import javax.annotation.PostConstruct;
 import javax.ejb.Stateless;
@@ -65,7 +66,9 @@ public class ChannelEndpoint {
         if (channel == null) {
             return Response.status(Response.Status.NOT_FOUND).build();
         }
-        return Response.ok(channel).build();
+
+        ChannelDto channelDto = new ChannelDto(channel);
+        return Response.ok(channelDto).build();
     }
 
 }
