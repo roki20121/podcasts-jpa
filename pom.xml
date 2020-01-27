@@ -7,6 +7,7 @@
     <groupId>com.roman</groupId>
     <artifactId>podcasts-jpa</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>war</packaging>
 
     <dependencies>
         <dependency>
