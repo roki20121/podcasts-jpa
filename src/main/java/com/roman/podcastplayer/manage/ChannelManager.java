@@ -5,9 +5,12 @@ import com.roman.podcastplayer.entity.Podcast;
 import com.roman.podcastplayer.parser.ChannelParser;
 import com.roman.podcastplayer.parser.UrlChannelParserConverter;
 
+import javax.ejb.Stateful;
+import javax.ejb.TransactionAttribute;
+import javax.ejb.TransactionAttributeType;
 import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
 import javax.persistence.NoResultException;
+import javax.persistence.PersistenceContext;
 import javax.persistence.TypedQuery;
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
@@ -15,36 +18,38 @@ import javax.persistence.criteria.Root;
 import java.io.IOException;
 import java.util.List;
 
+@Stateful
 public class ChannelManager {
 
-    private EntityManagerFactory factory;
+    @PersistenceContext(unitName = "com.roman.podcasts")
+    private EntityManager manager;
 
-    public ChannelManager(EntityManagerFactory factory) {
-        this.factory = factory;
+    public ChannelManager(EntityManager manager) {
+        this.manager = manager;
     }
 
+    public ChannelManager() {
+    }
 
     /**
      * Save channel in the database
      *
      * @return channel id in the database
      */
-    public Integer saveChannel(Channel channel, String url) {
-        EntityManager manager = factory.createEntityManager();
 
-        manager.getTransaction().begin();
+    @TransactionAttribute(TransactionAttributeType.REQUIRED)
+    public Integer saveChannel(Channel channel, String url) {
+
         channel.setUrl(url);
         manager.persist(channel);
         for (Podcast podcast : channel.getPodcasts()) {
             manager.persist(podcast);
         }
-        manager.getTransaction().commit();
-
-        manager.close();
 
         return channel.getId();
     }
 
+    @TransactionAttribute(TransactionAttributeType.REQUIRED)
     public Integer subscribe(String url, UrlChannelParserConverter converter) throws IOException {
         Channel lookupChannel = findChannelByUrl(url);
         if (lookupChannel != null) {
@@ -57,57 +62,48 @@ public class ChannelManager {
         }
     }
 
-    public void unsubscribe(String url) {
-        Channel channel = findChannelByUrl(url);
-
+    @TransactionAttribute(TransactionAttributeType.REQUIRED)
+    public void unsubscribe(Integer id) {
+        Channel channel = findChannelById(id);
         if (channel == null) {
             return;
         }
-
         deleteChannel(channel);
 
     }
 
     public List<Channel> getAllChannels() {
-        EntityManager manager = factory.createEntityManager();
 
         TypedQuery<Channel> getAllChannels = manager.createNamedQuery("get all Channels", Channel.class);
 
-        List<Channel> resultList = getAllChannels.getResultList();
-
-        manager.close();
-
-        return resultList;
+        return getAllChannels.getResultList();
     }
 
+    @TransactionAttribute(TransactionAttributeType.REQUIRED)
     private void deleteChannel(Channel channel) {
-        EntityManager manager = factory.createEntityManager();
-
-        manager.getTransaction().begin();
         manager.remove(channel);
-        manager.getTransaction().commit();
-
-        manager.close();
     }
 
     public Channel findChannelByUrl(String url) {
-        EntityManager manager = factory.createEntityManager();
-
         CriteriaBuilder builder = manager.getCriteriaBuilder();
         CriteriaQuery<Channel> query = builder.createQuery(Channel.class);
         Root<Channel> root = query.from(Channel.class);
 
         query.where(builder.equal(root.get("url"), url));
-
         TypedQuery<Channel> typedQuery = manager.createQuery(query);
 
         try {
             return typedQuery.getSingleResult();
         } catch (NoResultException e) {
             return null;
-        } finally {
-            manager.close();
         }
+
+    }
+
+
+    public Channel findChannelById(Integer id) {
+
+        return manager.find(Channel.class, id);
 
     }
 

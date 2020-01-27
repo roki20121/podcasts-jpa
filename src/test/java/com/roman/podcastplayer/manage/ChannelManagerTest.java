@@ -6,7 +6,6 @@ import com.roman.podcastplayer.entity.Podcast;
 import org.junit.jupiter.api.Test;
 
 import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
 
 import static org.mockito.Mockito.*;
 
@@ -19,15 +18,12 @@ class ChannelManagerTest {
         String url = "http://example.com";
         EntityManager manager = mock(EntityManager.class);
 
-        EntityManagerFactory factory = mock(EntityManagerFactory.class);
-        when(factory.createEntityManager()).thenReturn(manager);
 
         Channel channel = ChannelUtils.generateChannel(podcastsCount, url);
-        ChannelManager channelManager = new ChannelManager(factory);
+        ChannelManager channelManager = new ChannelManager(manager);
 
         channelManager.saveChannel(channel, url);
 
-        verify(factory, times(1)).createEntityManager();
         verify(manager, times(1)).persist(channel);
         for (Podcast podcast : channel.getPodcasts()) {
             verify(manager, times((1))).persist(podcast);
