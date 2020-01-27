@@ -5,12 +5,8 @@ import com.roman.podcastplayer.manage.ChannelManager;
 import com.roman.podcastplayer.parser.UrlChannelParserConverter;
 import com.roman.podcastplayer.rest.dto.ChannelDto;
 
-import javax.annotation.PostConstruct;
 import javax.ejb.Stateless;
 import javax.inject.Inject;
-import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.PersistenceContext;
 import javax.ws.rs.*;
 import javax.ws.rs.core.*;
 import java.io.IOException;
@@ -21,13 +17,7 @@ public class ChannelEndpoint {
 
     @Inject
     private ChannelManager manager;
-    private UrlChannelParserConverter converter;
-
-
-    @PostConstruct
-    public void init() {
-        converter = new UrlChannelParserConverter();
-    }
+    private UrlChannelParserConverter converter = new UrlChannelParserConverter();
 
     @GET
     public Response channelMain() {
@@ -50,12 +40,6 @@ public class ChannelEndpoint {
         }
 
     }
-
-    @PersistenceContext(unitName = "com.roman.podcasts")
-    private EntityManagerFactory factory;
-
-    @PersistenceContext(unitName = "com.roman.podcasts")
-    private EntityManager em;
 
     @GET
     @Path("/{channelId}")
