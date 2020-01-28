@@ -64,7 +64,7 @@ public class ChannelEndpoint {
             return Response.ok().build();
         } catch (Exception e) {
             e.printStackTrace();
-            return Response.status(500).build();
+            return Response.status(Response.Status.INTERNAL_SERVER_ERROR).build();
         }
 
     }
