@@ -19,6 +19,9 @@ public class UpdatesRetriever {
         this.converter = converter;
     }
 
+    public UpdatesRetriever() {
+    }
+
     Optional<Channel> readChannel(String url, String lastUuid) throws IOException {
 
         try (ChannelParser parser = converter.openChannelParser(url, lastUuid)) {
