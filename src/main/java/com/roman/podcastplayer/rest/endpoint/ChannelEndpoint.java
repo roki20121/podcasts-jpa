@@ -68,4 +68,17 @@ public class ChannelEndpoint {
         }
 
     }
+
+    @GET
+    @Path("/{channelId}/updates")
+    public Response getUpdatesForChannel(@PathParam("channelId") Integer channelId) {
+        try {
+            Channel channel = manager.getWithUpdates(channelId);
+            ChannelDto channelDto = new ChannelDto(channel);
+            return Response.ok(channelDto).build();
+        } catch (IOException e) {
+            e.printStackTrace();
+            return Response.status(Response.Status.INTERNAL_SERVER_ERROR).build();
+        }
+    }
 }

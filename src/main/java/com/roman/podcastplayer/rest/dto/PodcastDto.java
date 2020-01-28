@@ -15,6 +15,7 @@ public class PodcastDto {
     private String description;
     private String audioUrl;
     private boolean starred;
+    private boolean newItem;
 
     public PodcastDto(Podcast podcast) {
         id = podcast.getId();
@@ -24,5 +25,6 @@ public class PodcastDto {
         published = podcast.getPublished();
         audioUrl = podcast.getAudioUrl();
         starred = podcast.isStarred();
+        newItem = podcast.isNewItem();
     }
 }
