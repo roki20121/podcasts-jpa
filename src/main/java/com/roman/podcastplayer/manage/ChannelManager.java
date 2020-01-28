@@ -100,6 +100,13 @@ public class ChannelManager {
 
     }
 
+    @TransactionAttribute(TransactionAttributeType.REQUIRED)
+    public void starChannel(Integer id, boolean starred) {
+        Channel channel = findChannelById(id);
+
+        channel.setStarred(starred);
+        manager.persist(channel);
+    }
 
     public Channel findChannelById(Integer id) {
 
