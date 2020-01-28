@@ -10,6 +10,8 @@ import javax.inject.Inject;
 import javax.ws.rs.*;
 import javax.ws.rs.core.*;
 import java.io.IOException;
+import java.util.List;
+import java.util.stream.Collectors;
 
 @Stateless
 @Path("/channel")
@@ -21,7 +23,11 @@ public class ChannelEndpoint {
 
     @GET
     public Response channelMain() {
-        return Response.ok().build();
+        List<Channel> allChannels = manager.getAllChannels();
+        List<ChannelDto> channelDtos = allChannels.stream()
+                .map(ChannelDto::new)
+                .collect(Collectors.toList());
+        return Response.ok(channelDtos).build();
     }
 
     @POST
