@@ -29,7 +29,6 @@ class ChannelManagerTest {
             verify(manager, times((1))).persist(podcast);
         }
 
-        verify(manager, times(1)).close();
     }
 
 
