@@ -4,10 +4,12 @@ import com.roman.podcastplayer.entity.Channel;
 import com.roman.podcastplayer.parser.ChannelParser;
 import com.roman.podcastplayer.parser.UrlChannelParserConverter;
 
+import javax.ejb.Stateless;
 import java.io.IOException;
 import java.util.Objects;
 import java.util.Optional;
 
+@Stateless
 public class UpdatesRetriever {
 
     private UrlChannelParserConverter converter;

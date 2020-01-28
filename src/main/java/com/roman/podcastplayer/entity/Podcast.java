@@ -33,6 +33,9 @@ public class Podcast {
 
     private boolean starred;
 
+    @Transient
+    private boolean newItem = false;
+
     @ToString.Exclude
     @ManyToOne
     @JoinColumn(name = "channel_id")

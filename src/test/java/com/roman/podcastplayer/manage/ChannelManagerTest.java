@@ -4,9 +4,14 @@ import com.roman.podcastplayer.entity.Channel;
 import com.roman.podcastplayer.entity.ChannelUtils;
 import com.roman.podcastplayer.entity.Podcast;
 import org.junit.jupiter.api.Test;
+import org.mockito.Matchers;
 
 import javax.persistence.EntityManager;
+import java.io.IOException;
+import java.util.List;
+import java.util.Optional;
 
+import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
 
 class ChannelManagerTest {
@@ -32,6 +37,59 @@ class ChannelManagerTest {
     }
 
 
+    @Test
+    void getWithUpdates_storedNotEmpty_returnMerged() throws IOException {
+        Integer id = 4;
+        int oldCount = 20;
+        int newCount = 10;
+        EntityManager entityManager = mock(EntityManager.class);
+        ChannelManager manager = new ChannelManager(entityManager);
+
+        String url = ChannelUtils.generateRandomString();
+        Channel persisted = ChannelUtils.generateChannel(oldCount, url);
+        Channel updatesOnly = ChannelUtils.generateChannel(newCount, url);
+        UpdatesRetriever retriever = mock(UpdatesRetriever.class);
+
+        stub(manager.findChannelById(id)).toReturn(persisted);
+        when(retriever.readChannel(Matchers.anyString(), Matchers.anyString()))
+                .thenReturn(Optional.of(updatesOnly));
+        manager.setRetriever(retriever);
+
+        Channel updates = manager.getWithUpdates(id);
+
+        List<Podcast> updatesPodcasts = updates.getPodcasts();
+        assertEquals(oldCount + newCount, updatesPodcasts.size());
+
+        for (int i = 0; i < newCount; i++) {
+            Podcast podcast = updatesPodcasts.get(i);
+            assertTrue(podcast.isNewItem());
+        }
+
+    }
+
+    @Test
+    void getWithUpdates_noUpdates_returnMerged() throws IOException {
+        Integer id = 4;
+        int oldCount = 20;
+
+        EntityManager entityManager = mock(EntityManager.class);
+        ChannelManager manager = new ChannelManager(entityManager);
+
+        String url = ChannelUtils.generateRandomString();
+        Channel persisted = ChannelUtils.generateChannel(oldCount, url);
+
+        UpdatesRetriever retriever = mock(UpdatesRetriever.class);
+
+        stub(manager.findChannelById(id)).toReturn(persisted);
+        when(retriever.readChannel(Matchers.anyString(), Matchers.anyString()))
+                .thenReturn(Optional.empty());
+        manager.setRetriever(retriever);
+
+        Channel updates = manager.getWithUpdates(id);
+
+        assertSame(persisted, updates);
+
+    }
 //    @Test
 //    void getUpdatedChannel_nothingNew_returnsOldChannel() throws IOException {
 //

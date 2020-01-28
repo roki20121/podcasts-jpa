@@ -8,6 +8,7 @@ import com.roman.podcastplayer.parser.UrlChannelParserConverter;
 import javax.ejb.Stateful;
 import javax.ejb.TransactionAttribute;
 import javax.ejb.TransactionAttributeType;
+import javax.inject.Inject;
 import javax.persistence.EntityManager;
 import javax.persistence.NoResultException;
 import javax.persistence.PersistenceContext;
@@ -17,12 +18,16 @@ import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Root;
 import java.io.IOException;
 import java.util.List;
+import java.util.Optional;
 
 @Stateful
 public class ChannelManager {
 
     @PersistenceContext(unitName = "com.roman.podcasts")
     private EntityManager manager;
+
+    @Inject
+    private UpdatesRetriever retriever;
 
     public ChannelManager(EntityManager manager) {
         this.manager = manager;
@@ -114,4 +119,31 @@ public class ChannelManager {
 
     }
 
+    public Channel getWithUpdates(Integer id) throws IOException {
+        Channel persisted = findChannelById(id);
+
+        String url = persisted.getUrl();
+        List<Podcast> podcasts = persisted.getPodcasts();
+        String lastUuid = null;
+
+        if (podcasts.size() != 0) {
+            lastUuid = podcasts.get(0).getUuid();
+        }
+
+        Optional<Channel> updates = retriever.readChannel(url, lastUuid);
+        if (!updates.isPresent()) {
+            return persisted;
+        }
+
+        Channel updatesOnly = updates.get();
+        updatesOnly.getPodcasts().forEach(podcast -> podcast.setNewItem(true));
+
+        UpdatesRetriever.mergeChannels(updatesOnly, persisted);
+        return updatesOnly;
+
+    }
+
+    public void setRetriever(UpdatesRetriever retriever) {
+        this.retriever = retriever;
+    }
 }
