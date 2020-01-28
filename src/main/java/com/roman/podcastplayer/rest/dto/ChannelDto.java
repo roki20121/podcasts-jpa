@@ -5,7 +5,6 @@ import lombok.Data;
 
 import java.time.Instant;
 import java.util.List;
-import java.util.stream.Collectors;
 
 @Data
 public class ChannelDto {
@@ -25,10 +24,6 @@ public class ChannelDto {
         description = channel.getDescription();
         lastPublished = channel.getLastPublished();
         starred = channel.isStarred();
-
-        podcasts = channel.getPodcasts().stream()
-                .map(PodcastDto::new)
-                .collect(Collectors.toList());
     }
 
 }

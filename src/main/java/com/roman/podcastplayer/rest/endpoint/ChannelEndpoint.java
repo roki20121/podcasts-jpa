@@ -12,7 +12,7 @@ import javax.ws.rs.core.*;
 import java.io.IOException;
 
 @Stateless
-@Path("/channel")
+@Path("/channels")
 public class ChannelEndpoint {
 
     @Inject
