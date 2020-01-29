@@ -23,14 +23,21 @@ public class PodcastEndpoint {
     private PodcastManager podcastManager;
 
     @GET
-    public Response getPodcasts(@PathParam("channelId") Integer channelId) {
-        List<Podcast> podcasts = podcastManager.getPodcasts(channelId);
+    public Response getPodcasts(@PathParam("channelId") Integer channelId, @QueryParam("s") Boolean starred) {
+
+        List<Podcast> podcasts;
+        if (starred != null) {
+            podcasts = podcastManager.getStarredPodcasts(channelId, starred);
+        } else {
+            podcasts = podcastManager.getPodcasts(channelId);
+
+        }
+
         List<PodcastDto> podcastDtos = podcasts.stream()
                 .map(PodcastDto::new)
                 .collect(Collectors.toList());
 
         return Response.ok(podcastDtos).build();
-
     }
 
     @GET

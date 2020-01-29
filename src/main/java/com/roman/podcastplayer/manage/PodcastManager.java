@@ -36,6 +36,18 @@ public class PodcastManager {
         return query.getResultList();
     }
 
+    public List<Podcast> getStarredPodcasts(Integer channelId, boolean starred) {
+        TypedQuery<Podcast> query = manager.createQuery(
+                "select p from Podcast p " +
+                        "left join fetch p.categories " +
+                        "where p.channel.id = :channelId and p.starred = :starred " +
+                        "order by p.published desc",
+                Podcast.class);
+        query.setParameter("channelId", channelId);
+        query.setParameter("starred", starred);
+        return query.getResultList();
+    }
+
     public Podcast findPodcastById(Integer id) {
         return manager.find(Podcast.class, id);
     }
