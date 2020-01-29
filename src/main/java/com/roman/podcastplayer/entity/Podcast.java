@@ -41,7 +41,7 @@ public class Podcast {
     @JoinColumn(name = "channel_id")
     private Channel channel;
 
-    @ManyToMany
+    @ManyToMany(cascade = CascadeType.REMOVE)
     @JoinTable(
             name = "podcast_category",
             joinColumns = @JoinColumn(name = "podcast_id"),

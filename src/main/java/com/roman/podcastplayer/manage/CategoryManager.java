@@ -34,7 +34,9 @@ public class CategoryManager {
     }
 
     @TransactionAttribute(TransactionAttributeType.REQUIRED)
-    public void deleteCategory(Category category) {
+    public void deleteCategory(Integer id) {
+        Category category = findCategoryById(id);
+        if (category == null) return;
         manager.remove(category);
     }
 
