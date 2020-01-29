@@ -56,4 +56,22 @@ public class PodcastEndpoint {
         return Response.ok().build();
     }
 
+    @PUT
+    @Path("/{podcastId}/categories/{categoryId}")
+    public Response addCategory(@PathParam("podcastId") Integer podcastId, @PathParam("categoryId") Integer categoryId) {
+
+        podcastManager.addCategory(podcastId, categoryId);
+
+        return Response.ok().build();
+
+    }
+
+    @DELETE
+    @Path("/{podcastId}/categories/{categoryId}")
+    public Response removeCategory(@PathParam("podcastId") Integer podcastId,
+                                   @PathParam("categoryId") Integer categoryId) {
+        podcastManager.removeCategory(podcastId, categoryId);
+
+        return Response.ok().build();
+    }
 }

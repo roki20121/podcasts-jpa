@@ -4,6 +4,8 @@ import com.roman.podcastplayer.entity.Podcast;
 import lombok.Data;
 
 import java.time.Instant;
+import java.util.Set;
+import java.util.stream.Collectors;
 
 @Data
 public class PodcastDto {
@@ -16,6 +18,8 @@ public class PodcastDto {
     private String audioUrl;
     private boolean starred;
     private boolean newItem;
+    private Set<CategoryDto> categoryDtos;
+
 
     public PodcastDto(Podcast podcast) {
         id = podcast.getId();
@@ -26,5 +30,9 @@ public class PodcastDto {
         audioUrl = podcast.getAudioUrl();
         starred = podcast.isStarred();
         newItem = podcast.isNewItem();
+        categoryDtos = podcast.getCategories()
+                .stream()
+                .map(CategoryDto::new)
+                .collect(Collectors.toSet());
     }
 }
