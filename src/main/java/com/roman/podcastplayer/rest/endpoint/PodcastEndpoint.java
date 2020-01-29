@@ -37,7 +37,7 @@ public class PodcastEndpoint {
 
     @GET
     @Path("/{podcastId}")
-    public Response getPodcast(@PathParam("podcastId") Integer podcastId, String f) {
+    public Response getPodcast(@PathParam("podcastId") Integer podcastId) {
         Podcast podcast = podcastManager.findPodcastById(podcastId);
 
         if (podcast == null) {
