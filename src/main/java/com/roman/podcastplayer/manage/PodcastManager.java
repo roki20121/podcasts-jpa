@@ -9,6 +9,8 @@ import javax.ejb.TransactionAttributeType;
 import javax.inject.Inject;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
+import javax.persistence.TypedQuery;
+import java.util.List;
 
 @Stateful
 public class PodcastManager {
@@ -24,6 +26,14 @@ public class PodcastManager {
     }
 
     public PodcastManager() {
+    }
+
+    public List<Podcast> getPodcasts(Integer channelId) {
+        TypedQuery<Podcast> query = manager.createQuery(
+                "select p from Podcast p left join fetch p.categories where p.channel.id = :channelId order by p.published desc",
+                Podcast.class);
+        query.setParameter("channelId", channelId);
+        return query.getResultList();
     }
 
     public Podcast findPodcastById(Integer id) {

@@ -1,6 +1,5 @@
 package com.roman.podcastplayer.rest.endpoint;
 
-import com.roman.podcastplayer.entity.Channel;
 import com.roman.podcastplayer.entity.Podcast;
 import com.roman.podcastplayer.manage.ChannelManager;
 import com.roman.podcastplayer.manage.PodcastManager;
@@ -25,9 +24,8 @@ public class PodcastEndpoint {
 
     @GET
     public Response getPodcasts(@PathParam("channelId") Integer channelId) {
-        Channel channel = channelManager.findChannelById(channelId);
-
-        List<PodcastDto> podcastDtos = channel.getPodcasts().stream()
+        List<Podcast> podcasts = podcastManager.getPodcasts(channelId);
+        List<PodcastDto> podcastDtos = podcasts.stream()
                 .map(PodcastDto::new)
                 .collect(Collectors.toList());
 
