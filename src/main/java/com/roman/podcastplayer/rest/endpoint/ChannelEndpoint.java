@@ -14,7 +14,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @Stateless
-@Path("/channel")
+@Path("/channels")
 public class ChannelEndpoint {
 
     @Inject
