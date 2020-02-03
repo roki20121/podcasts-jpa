@@ -1,9 +1,6 @@
 package com.roman.podcastplayer.entity;
 
-import lombok.Data;
-import lombok.NoArgsConstructor;
-import lombok.NonNull;
-import lombok.RequiredArgsConstructor;
+import lombok.*;
 
 import javax.persistence.*;
 import java.util.HashSet;
@@ -13,6 +10,7 @@ import java.util.Set;
 @Data
 @RequiredArgsConstructor
 @NoArgsConstructor
+@EqualsAndHashCode(exclude = "podcasts")
 public class Category {
 
     @Id
