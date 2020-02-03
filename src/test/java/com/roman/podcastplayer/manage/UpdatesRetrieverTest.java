@@ -39,6 +39,19 @@ class UpdatesRetrieverTest {
     }
 
     @Test
+    void readChannel_noNewPodcasts_EmptyOptionalReturned() throws IOException {
+        UrlChannelParserConverter converter = mock(UrlChannelParserConverter.class);
+        ChannelParser parser = mock(ChannelParser.class);
+        UpdatesRetriever retriever = new UpdatesRetriever(converter);
+        when(parser.hasNewPodcasts()).thenReturn(false);
+        when(converter.openChannelParser(Matchers.anyString(), Matchers.anyString())).thenReturn(parser);
+
+        Optional<Channel> readChannel = retriever.readChannel("fake url", null);
+
+        assertEquals(Optional.empty(), readChannel);
+    }
+
+    @Test
     void merge_newPodcasts_returnMerged() {
         int id = 9;
         int newPodcastsCount = 2;
