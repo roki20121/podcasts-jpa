@@ -3,6 +3,7 @@ package com.roman.podcastplayer.entity;
 import com.roman.podcastplayer.TestUtils;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 import javax.persistence.EntityManager;
@@ -17,6 +18,7 @@ import java.sql.SQLException;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
+@Tag("pojo")
 class ChannelTest {
 
     private static EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("com.roman.podcasts");

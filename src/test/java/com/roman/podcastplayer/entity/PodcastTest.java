@@ -3,6 +3,7 @@ package com.roman.podcastplayer.entity;
 import com.roman.podcastplayer.TestUtils;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 import javax.persistence.*;
@@ -14,6 +15,7 @@ import java.time.Instant;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+@Tag("pojo")
 class PodcastTest {
 
     private static EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("com.roman.podcasts");
