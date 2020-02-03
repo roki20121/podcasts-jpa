@@ -1,6 +1,9 @@
 package com.roman.podcastplayer.rest.endpoint;
 
 import com.roman.podcastplayer.manage.CategoryManager;
+import lombok.NoArgsConstructor;
+import lombok.NonNull;
+import lombok.RequiredArgsConstructor;
 
 import javax.ejb.Stateless;
 import javax.inject.Inject;
@@ -12,9 +15,12 @@ import javax.ws.rs.core.UriInfo;
 
 @Stateless
 @Path("/categories")
+@NoArgsConstructor
+@RequiredArgsConstructor
 public class CategoryEndpoint {
 
     @Inject
+    @NonNull
     private CategoryManager categoryManager;
 
     @POST
