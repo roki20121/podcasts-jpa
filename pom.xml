@@ -109,12 +109,22 @@
                 <artifactId>cobertura-maven-plugin</artifactId>
                 <version>2.7</version>
                 <configuration>
-                    <check/>
+                    <check>
+                        <packageLineRate>33</packageLineRate>
+                    </check>
                     <formats>
                         <format>html</format>
                         <format>xml</format>
                     </formats>
                 </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>clean</goal>
+                            <goal>check</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
     </build>
