@@ -9,6 +9,11 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
 
+    <properties>
+        <glassfish.asadmin>${glassfish.location}\bin\asadmin.bat</glassfish.asadmin>
+        <glassfish.passwords>passwords.file</glassfish.passwords>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.projectlombok</groupId>
@@ -104,7 +109,54 @@
                     <excludedGroups>pojo</excludedGroups>
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>1.6.0</version>
+                <executions>
+                    <execution>
+                        <id>install-in-glassfish-execution</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>exec</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <executable>${glassfish.asadmin}</executable>
+                    <arguments>
+                        <argument>--user</argument>
+                        <argument>admin</argument>
+                        <argument>--passwordFile</argument>
+                        <argument>${glassfish.passwords}</argument>
+                        <argument>redeploy</argument>
+                        <argument>--name</argument>
+                        <argument>${build.finalName}</argument>
+                        <argument>${build.directory}/${build.finalName}.war</argument>
+                    </arguments>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>properties-maven-plugin</artifactId>
+                <version>1.0.0</version>
+                <executions>
+                    <execution>
+                        <phase>prepare-package</phase>
+                        <goals>
+                            <goal>read-project-properties</goal>
+                        </goals>
+                        <configuration>
+                            <files>
+                                <file>secret.properties</file>
+                            </files>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
         </plugins>
+
+        <finalName>Podcasts-jpa</finalName>
     </build>
 
 </project>
