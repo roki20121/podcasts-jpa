@@ -1,9 +1,12 @@
 package com.roman.podcastplayer.rest.endpoint;
 
 import com.roman.podcastplayer.entity.Channel;
+import com.roman.podcastplayer.entity.Podcast;
 import com.roman.podcastplayer.manage.ChannelManager;
+import com.roman.podcastplayer.manage.PodcastManager;
 import com.roman.podcastplayer.parser.UrlChannelParserConverter;
 import com.roman.podcastplayer.rest.dto.ChannelDto;
+import com.roman.podcastplayer.rest.dto.PodcastDto;
 
 import javax.ejb.Stateless;
 import javax.inject.Inject;
@@ -19,10 +22,13 @@ public class ChannelEndpoint {
 
     @Inject
     private ChannelManager manager;
+
+    @Inject
+    private PodcastManager podcastManager;
     private UrlChannelParserConverter converter = new UrlChannelParserConverter();
 
     @GET
-    public Response channelMain() {
+    public Response getChannels() {
         List<Channel> allChannels = manager.getAllChannels();
         List<ChannelDto> channelDtos = allChannels.stream()
                 .map(ChannelDto::new)
@@ -87,4 +93,24 @@ public class ChannelEndpoint {
             return Response.status(Response.Status.INTERNAL_SERVER_ERROR).build();
         }
     }
+
+    @GET
+    @Path("/{channelId}/podcasts")
+    public Response getPodcasts(@PathParam("channelId") Integer channelId, @QueryParam("s") Boolean starred) {
+
+        List<Podcast> podcasts;
+        if (starred != null) {
+            podcasts = podcastManager.getStarredPodcasts(channelId, starred);
+        } else {
+            podcasts = podcastManager.getPodcasts(channelId);
+
+        }
+
+        List<PodcastDto> podcastDtos = podcasts.stream()
+                .map(PodcastDto::new)
+                .collect(Collectors.toList());
+
+        return Response.ok(podcastDtos).build();
+    }
+
 }
