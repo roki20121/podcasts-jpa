@@ -84,7 +84,7 @@ public class ChannelParser implements AutoCloseable {
                                 break;
                             case "enclosure":
                                 if (inPodcast) {
-                                    String url = parser.getAttributeValue(0);
+                                    String url = parser.getAttributeValue(null, "url");
                                     String type = parser.getAttributeValue(null, "type");
                                     if (type != null) {
                                         podcast.setAudioUrl(url);

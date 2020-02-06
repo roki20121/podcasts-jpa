@@ -120,7 +120,8 @@ class ChannelParserTest {
         return Stream.of(
                 Arguments.of("channels/cbc_full.xml", "undertheinfluence-8bebd2a3-6654-4e4c-9f60-cfa3d0c516ad"),
                 Arguments.of("channels/the_moth_full.xml", "prx_24_9b728a50-99d0-466f-8c07-6621bea4a4fa"),
-                Arguments.of("channels/art_of_charm_full.xml", "gid://art19-episode-locator/V0/StxxKuNYrav27a_PSdhKhF7asz3A4zsgvNdgy4VXJWE")
+                Arguments.of("channels/art_of_charm_full.xml", "gid://art19-episode-locator/V0/StxxKuNYrav27a_PSdhKhF7asz3A4zsgvNdgy4VXJWE"),
+                Arguments.of("channels/the_ace_watkins.xml", "47977026-663a-4276-b95c-cf0f97757f6d")
         );
     }
 
@@ -131,7 +132,9 @@ class ChannelParserTest {
                 Arguments.of("channels/the_moth_full.xml", "prx_24_a67c9505-49be-43c8-aa0e-860e3277ee98", 1),
                 Arguments.of("channels/the_moth_full.xml", "prx_24_d7d54a46-bfbc-48ef-9bfd-45c9ef976be1", 2),
                 Arguments.of("channels/art_of_charm_full.xml", "gid://art19-episode-locator/V0/fBMA9nY-3IOT5AUT1jgQ7dolw6jhlnDOjvIxYDVPhtU", 1),
-                Arguments.of("channels/art_of_charm_full.xml", "gid://art19-episode-locator/V0/s50ISCTCkW6cqBQoZLHu8BQ-RfNK_h5kpzECHmKRFDs", 2)
+                Arguments.of("channels/art_of_charm_full.xml", "gid://art19-episode-locator/V0/s50ISCTCkW6cqBQoZLHu8BQ-RfNK_h5kpzECHmKRFDs", 2),
+                Arguments.of("channels/the_ace_watkins.xml", "11b3aa08-4844-4c12-b5db-6ea971e523dd", 1),
+                Arguments.of("channels/the_ace_watkins.xml", "05106186-02a9-4cc3-b37e-0dd20c83e0a8", 2)
         );
     }
 
@@ -139,7 +142,8 @@ class ChannelParserTest {
         String[] names = {
                 "channels/cbc_full.xml",
                 "channels/the_moth_full.xml",
-                "channels/art_of_charm_full.xml"
+                "channels/art_of_charm_full.xml",
+                "channels/the_ace_watkins.xml"
         };
 
         return Arrays.asList(names);

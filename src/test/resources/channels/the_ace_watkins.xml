@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <atom:link href="http://acewatkins.libsyn.com/rss" rel="self" type="application/rss+xml"/>
+        <title>The Ace Watkins Presidential Hour</title>
+        <pubDate>Thu, 06 Feb 2020 05:41:38 +0000</pubDate>
+        <lastBuildDate>Thu, 06 Feb 2020 05:50:29 +0000</lastBuildDate>
+        <generator>Libsyn WebEngine 2.0</generator>
+        <link>http://acewatkins.libsyn.com/website</link>
+        <language>en</language>
+        <copyright><![CDATA[]]></copyright>
+        <docs>http://acewatkins.libsyn.com/website</docs>
+        <managingEditor>ace@thehardtimes.net (ace@thehardtimes.net)</managingEditor>
+        <itunes:summary>
+            <![CDATA[Ace Watkins is the only Gamer running for President of the United States. Join Ace and his staff as he travels the country solving the problems of Gamers and non-Gamers alike. Powered by Pulitzer-prize winning video game journalism website Hard Drive (hard-drive.net).]]></itunes:summary>
+        <image>
+            <url>http://static.libsyn.com/p/assets/4/3/f/4/43f48b62ab077b7f/title_logo_8.jpg</url>
+            <title>The Ace Watkins Presidential Hour</title>
+            <link><![CDATA[http://acewatkins.libsyn.com/website]]></link>
+        </image>
+        <itunes:author>Ace Watkins</itunes:author>
+        <itunes:category text="Comedy"></itunes:category>
+        <itunes:category text="News">
+            <itunes:category text="Politics"/>
+        </itunes:category>
+        <itunes:category text="Leisure">
+            <itunes:category text="Video Games"/>
+        </itunes:category>
+        <itunes:image href="http://static.libsyn.com/p/assets/4/3/f/4/43f48b62ab077b7f/title_logo_8.jpg"/>
+        <itunes:explicit>yes</itunes:explicit>
+        <itunes:owner>
+            <itunes:name><![CDATA[Jeremy Kaplowitz]]></itunes:name>
+            <itunes:email>jeremy@thehardtimes.net</itunes:email>
+        </itunes:owner>
+        <description>
+            <![CDATA[Ace Watkins is the only Gamer running for President of the United States. Join Ace and his staff as he travels the country solving the problems of Gamers and non-Gamers alike. Powered by Pulitzer-prize winning video game journalism website Hard Drive (hard-drive.net).]]></description>
+        <itunes:subtitle><![CDATA[]]></itunes:subtitle>
+        <itunes:type>episodic</itunes:type>
+        <item>
+            <title>Lag in Iowa</title>
+            <itunes:title>Lag in Iowa</itunes:title>
+            <pubDate>Thu, 06 Feb 2020 05:41:38 +0000</pubDate>
+            <guid isPermaLink="false"><![CDATA[47977026-663a-4276-b95c-cf0f97757f6d]]></guid>
+            <link><![CDATA[http://acewatkins.libsyn.com/lag-in-iowa]]></link>
+            <itunes:image href="http://static.libsyn.com/p/assets/4/3/f/4/43f48b62ab077b7f/title_logo_8.jpg"/>
+            <description>
+                <![CDATA[<p>Gamer candidate for president Ace Watkins and his team discuss the awful lag in the Iowa Caucus, the DNC trying to shove awful DLC characters down our throat like Michael Bloomberg, how to reach the mom-voters of America through their gaming children, and much more.</p>]]></description>
+            <content:encoded>
+                <![CDATA[<p>Gamer candidate for president Ace Watkins and his team discuss the awful lag in the Iowa Caucus, the DNC trying to shove awful DLC characters down our throat like Michael Bloomberg, how to reach the mom-voters of America through their gaming children, and much more.</p>]]></content:encoded>
+            <enclosure length="67180804" type="audio/mpeg"
+                       url="http://traffic.libsyn.com/acewatkins/Ace_Episode_2.mp3?dest-id=1827728"/>
+            <itunes:duration>01:08:33</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:keywords/>
+            <itunes:subtitle>
+                <![CDATA[Gamer candidate for president Ace Watkins and his team discuss the awful lag in the Iowa Caucus, the DNC trying to shove awful DLC characters down our throat like Michael Bloomberg, how to reach the mom-voters of America through their gaming children,...]]></itunes:subtitle>
+            <itunes:summary>Gamer candidate for president Ace Watkins and his team discuss the awful lag in the Iowa
+                Caucus, the DNC trying to shove awful DLC characters down our throat like Michael Bloomberg, how to
+                reach the mom-voters of America through their gaming children, and much more.
+            </itunes:summary>
+            <itunes:episodeType>full</itunes:episodeType>
+        </item>
+        <item>
+            <title>Not Solo; Squad</title>
+            <itunes:title>Not Solo; Squad</itunes:title>
+            <pubDate>Thu, 30 Jan 2020 05:35:58 +0000</pubDate>
+            <guid isPermaLink="false"><![CDATA[11b3aa08-4844-4c12-b5db-6ea971e523dd]]></guid>
+            <link><![CDATA[http://acewatkins.libsyn.com/not-solo-squad]]></link>
+            <itunes:image href="http://static.libsyn.com/p/assets/4/3/f/4/43f48b62ab077b7f/title_logo_8.jpg"/>
+            <description>
+                <![CDATA[<p>Load up the menu, make sure the image on the left is barely visible, and press start: the Ace Watkins Presidential Hour has officially launched. Ace and his staff get into some discussion of policy, answer calls from supporters, check in with their West Coast strategist, and hum the theme from Halo. </p>]]></description>
+            <content:encoded>
+                <![CDATA[<p>Load up the menu, make sure the image on the left is barely visible, and press start: the Ace Watkins Presidential Hour has officially launched. Ace and his staff get into some discussion of policy, answer calls from supporters, check in with their West Coast strategist, and hum the theme from Halo. </p>]]></content:encoded>
+            <enclosure length="88108768" type="audio/mpeg"
+                       url="http://traffic.libsyn.com/acewatkins/ACPH_-_ep1_final.mp3?dest-id=1827728"/>
+            <itunes:duration>01:31:42</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:keywords/>
+            <itunes:subtitle>
+                <![CDATA[Load up the menu, make sure the image on the left is barely visible, and press start: the Ace Watkins Presidential Hour has officially launched. Ace and his staff get into some discussion of policy, answer calls from supporters, check in with their...]]></itunes:subtitle>
+            <itunes:summary>Load up the menu, make sure the image on the left is barely visible, and press start: the
+                Ace Watkins Presidential Hour has officially launched. Ace and his staff get into some discussion of
+                policy, answer calls from supporters, check in with their West Coast strategist, and hum the theme from
+                Halo. 
+            </itunes:summary>
+            <itunes:episodeType>full</itunes:episodeType>
+        </item>
+        <item>
+            <title>The Ace Watkins Presidential Hour: Teaser</title>
+            <itunes:title>The Ace Watkins Presidential Hour: Teaser</itunes:title>
+            <pubDate>Mon, 27 Jan 2020 05:46:17 +0000</pubDate>
+            <guid isPermaLink="false"><![CDATA[05106186-02a9-4cc3-b37e-0dd20c83e0a8]]></guid>
+            <link><![CDATA[http://acewatkins.libsyn.com/the-ace-watkins-presidential-hour-teaser]]></link>
+            <itunes:image href="http://static.libsyn.com/p/assets/4/3/f/4/43f48b62ab077b7f/title_logo_8.jpg"/>
+            <description>
+                <![CDATA[<p>The Ace Watkins Presidential Hour airs every Thursday beginning January 30. Subscribe now to be the first to listen when episode 1 drops!</p>]]></description>
+            <content:encoded>
+                <![CDATA[<p>The Ace Watkins Presidential Hour airs every Thursday beginning January 30. Subscribe now to be the first to listen when episode 1 drops!</p>]]></content:encoded>
+            <enclosure length="441048" type="audio/mpeg"
+                       url="http://traffic.libsyn.com/acewatkins/teaser_audio.mp3?dest-id=1827728"/>
+            <itunes:duration>27</itunes:duration>
+            <itunes:explicit>no</itunes:explicit>
+            <itunes:keywords/>
+            <itunes:subtitle>
+                <![CDATA[The Ace Watkins Presidential Hour airs every Thursday beginning January 30. Subscribe now to be the first to listen when episode 1 drops!]]></itunes:subtitle>
+            <itunes:summary>The Ace Watkins Presidential Hour airs every Thursday beginning January 30. Subscribe now to
+                be the first to listen when episode 1 drops!
+            </itunes:summary>
+            <itunes:episodeType>full</itunes:episodeType>
+        </item>
+    </channel>
+</rss>
