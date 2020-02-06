@@ -10,6 +10,7 @@
     <packaging>war</packaging>
 
     <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <glassfish.asadmin>${glassfish.location}\bin\asadmin.bat</glassfish.asadmin>
         <glassfish.passwords>passwords.file</glassfish.passwords>
     </properties>
@@ -131,8 +132,8 @@
                         <argument>${glassfish.passwords}</argument>
                         <argument>redeploy</argument>
                         <argument>--name</argument>
-                        <argument>${build.finalName}</argument>
-                        <argument>${build.directory}/${build.finalName}.war</argument>
+                        <argument>${project.build.finalName}</argument>
+                        <argument>${project.build.directory}/${project.build.finalName}.war</argument>
                     </arguments>
                 </configuration>
             </plugin>
