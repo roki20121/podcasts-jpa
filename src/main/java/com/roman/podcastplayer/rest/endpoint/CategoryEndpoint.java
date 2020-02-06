@@ -1,6 +1,8 @@
 package com.roman.podcastplayer.rest.endpoint;
 
+import com.roman.podcastplayer.entity.Category;
 import com.roman.podcastplayer.manage.CategoryManager;
+import com.roman.podcastplayer.rest.dto.CategoryDto;
 import lombok.NoArgsConstructor;
 import lombok.NonNull;
 import lombok.RequiredArgsConstructor;
@@ -8,10 +10,9 @@ import lombok.RequiredArgsConstructor;
 import javax.ejb.Stateless;
 import javax.inject.Inject;
 import javax.ws.rs.*;
-import javax.ws.rs.core.Context;
-import javax.ws.rs.core.Response;
-import javax.ws.rs.core.UriBuilder;
-import javax.ws.rs.core.UriInfo;
+import javax.ws.rs.core.*;
+import java.util.List;
+import java.util.stream.Collectors;
 
 @Stateless
 @Path("/categories")
@@ -41,5 +42,15 @@ public class CategoryEndpoint {
         return Response.ok().build();
     }
 
+    @GET
+    @Produces(MediaType.APPLICATION_JSON)
+    public Response getCategories() {
+        List<Category> categories = categoryManager.getCategories();
+        List<CategoryDto> categoryDtos = categories.stream()
+                .map(CategoryDto::new)
+                .collect(Collectors.toList());
+
+        return Response.ok(categoryDtos).build();
+    }
 
 }

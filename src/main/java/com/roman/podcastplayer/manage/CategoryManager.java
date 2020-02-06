@@ -9,6 +9,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.NoResultException;
 import javax.persistence.PersistenceContext;
 import javax.persistence.TypedQuery;
+import java.util.List;
 
 @Stateless
 public class CategoryManager {
@@ -54,6 +55,10 @@ public class CategoryManager {
             return null;
         }
 
+    }
+
+    public List<Category> getCategories() {
+        return manager.createQuery("select c from Category c", Category.class).getResultList();
     }
 
 }
