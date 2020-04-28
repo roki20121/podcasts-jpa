@@ -11,8 +11,8 @@ import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
+import java.util.Collections;
 import java.util.List;
-import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -22,7 +22,8 @@ public class StepDefinitions {
     private RequestSpecification requestSpecification;
     private Response response;
     private String endpoint;
-
+    private int maxId;
+    private Integer idToInteract;
 
     @Before
     public void init() {
@@ -43,15 +44,16 @@ public class StepDefinitions {
 
     @When("^I submit (.*) request to (.*) endpoint$")
     public void i_submit_request_to(String method, String dest) {
+        String path = "/" + dest + (idToInteract == null ? "" : "/" + idToInteract);
         switch (method) {
             case "POST":
-                response = requestSpecification.post("/" + dest);
+                response = requestSpecification.post(path);
                 break;
             case "GET":
-                response = requestSpecification.get("/" + dest);
+                response = requestSpecification.get(path);
                 break;
             case "DELETE":
-                response = requestSpecification.delete("/" + dest);
+                response = requestSpecification.delete(path);
                 break;
             default:
                 throw new IllegalArgumentException(method + " is not supported");
@@ -80,20 +82,37 @@ public class StepDefinitions {
         assertEquals(201, response.getStatusCode());
     }
 
-    @Then("I should not see category {string} in the list")
-    public void i_should_not_see_category_in_the_list(String name) {
-        List<Category> list = RestAssured.get("/categories").getBody().jsonPath().getList("$", Category.class);
-        Optional<Category> optional = list.stream()
-                .filter(category -> category.getName().equals(name))
-                .findAny();
+    @Then("^I should not see any (.*) in the list$")
+    public void i_should_not_see_any_in_the_list(String itemsName) {
+        List<Object> list = RestAssured.get("/" + itemsName).getBody().jsonPath().getList("$");
 
-        assertFalse(optional.isPresent());
+        assertTrue(list.isEmpty());
     }
 
     @Given("Category with id {int} exists")
     public void category_with_id_exists(int id) {
         Response response = RestAssured.given().queryParam("categoryName", "_name_").post("/categories");
         assertEquals(201, response.getStatusCode());
+    }
+
+    @Given("^I remove all (.*) and save max_id")
+    public void i_remove_all_and_save_max_id(String itemsName) {
+        Response response = RestAssured.get(restEndpointRoot + "/" + itemsName);
+        JsonPath jsonPath = response.getBody().jsonPath();
+
+        List<Integer> list = jsonPath.getList("id", Integer.class);
+
+        maxId = Collections.max(list);
+
+        for (Integer id : list) {
+            int statusCode = RestAssured.delete(restEndpointRoot + "/" + itemsName + "/" + id).getStatusCode();
+            assertEquals(200, statusCode);
+        }
+    }
+
+    @When("I want to interact with item with id max_id+1")
+    public void i_want_to_interact_with_item_with_id_max_id_1() {
+        idToInteract = maxId + 1;
     }
 
 }
