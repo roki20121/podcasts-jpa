@@ -41,9 +41,6 @@ public class ChannelEndpoint {
     public Response subscribe(@QueryParam("url") String url, @Context UriInfo uriInfo) {
         try {
             Integer newChannelId = manager.subscribe(url, converter);
-            if (newChannelId == null) {
-                return Response.notModified().build();
-            }
             UriBuilder pathBuilder = uriInfo.getBaseUriBuilder();
             pathBuilder.path(ChannelEndpoint.class);
             pathBuilder.path(newChannelId.toString());

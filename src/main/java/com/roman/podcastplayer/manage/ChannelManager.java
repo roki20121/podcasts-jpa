@@ -58,7 +58,7 @@ public class ChannelManager {
     public Integer subscribe(String url, UrlChannelParserConverter converter) throws IOException {
         Channel lookupChannel = findChannelByUrl(url);
         if (lookupChannel != null) {
-            return null;
+            return lookupChannel.getId();
         }
         try (ChannelParser parser = converter.openChannelParser(url, null)) {
             parser.parse();
