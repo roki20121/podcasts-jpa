@@ -102,6 +102,9 @@ public class StepDefinitions {
 
         List<Integer> list = jsonPath.getList("id", Integer.class);
 
+        if (list.isEmpty()) {
+            return;
+        }
         maxId = Collections.max(list);
 
         for (Integer id : list) {
@@ -113,6 +116,17 @@ public class StepDefinitions {
     @When("I want to interact with item with id max_id+1")
     public void i_want_to_interact_with_item_with_id_max_id_1() {
         idToInteract = maxId + 1;
+    }
+
+    @Then("I should have channel with {string} and title {string}")
+    public void i_should_have_channel_with_and_title(String url, String title) {
+
+        String actualTitle = RestAssured.given()
+                .get("/channels")
+                .getBody().jsonPath()
+                .param("url", url).get("findAll{ a-> a.url==url}.title[0]");
+
+        assertEquals(title, actualTitle);
     }
 
 }
